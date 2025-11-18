@@ -1,0 +1,966 @@
+[2025-11-13T16:41:14.746-0800] {processor.py:186} INFO - Started process (PID=9356) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:41:14.747-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T16:41:14.747-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:41:14.747-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:41:14.754-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:41:14.778-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:41:14.778-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T16:41:14.781-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:41:14.781-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T16:41:14.802-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T16:43:29.168-0800] {processor.py:186} INFO - Started process (PID=9423) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:43:29.168-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T16:43:29.168-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:43:29.168-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:43:29.176-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:43:29.199-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:43:29.199-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T16:43:29.202-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:43:29.202-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T16:43:29.224-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T16:44:41.647-0800] {processor.py:186} INFO - Started process (PID=9475) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:44:41.647-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T16:44:41.647-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:44:41.647-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:44:41.655-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:44:41.678-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:44:41.678-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T16:44:41.681-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:44:41.681-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T16:44:41.702-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T16:45:45.283-0800] {processor.py:186} INFO - Started process (PID=9519) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:45:45.284-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T16:45:45.284-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:45:45.284-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:45:45.292-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:45:45.316-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:45:45.316-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T16:45:45.318-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:45:45.318-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T16:45:45.342-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-11-13T16:47:26.381-0800] {processor.py:186} INFO - Started process (PID=9560) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:47:26.381-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T16:47:26.381-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:47:26.381-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:47:26.389-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:47:26.412-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:47:26.412-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T16:47:26.415-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:47:26.415-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T16:47:26.437-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T16:48:18.417-0800] {processor.py:186} INFO - Started process (PID=9604) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:48:18.418-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T16:48:18.418-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:48:18.418-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:48:18.425-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:48:18.449-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:48:18.449-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T16:48:18.451-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:48:18.451-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T16:48:18.473-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T16:56:11.354-0800] {processor.py:186} INFO - Started process (PID=9656) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:56:11.354-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T16:56:11.355-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:56:11.354-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:56:11.362-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:56:11.385-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:56:11.385-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T16:56:11.388-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:56:11.388-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T16:56:11.410-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T16:57:16.105-0800] {processor.py:186} INFO - Started process (PID=9699) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:57:16.106-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T16:57:16.106-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:57:16.106-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:57:16.113-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:57:16.137-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:57:16.137-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T16:57:16.140-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:57:16.140-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T16:57:16.162-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T16:58:20.453-0800] {processor.py:186} INFO - Started process (PID=9748) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:58:20.454-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T16:58:20.454-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:58:20.454-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:58:20.462-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:58:20.486-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:58:20.485-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T16:58:20.488-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:58:20.488-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T16:58:20.510-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T16:59:19.481-0800] {processor.py:186} INFO - Started process (PID=9792) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:59:19.481-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T16:59:19.482-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:59:19.482-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:59:19.489-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T16:59:19.513-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:59:19.513-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T16:59:19.516-0800] {logging_mixin.py:190} INFO - [2025-11-13T16:59:19.516-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T16:59:19.538-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:00:32.079-0800] {processor.py:186} INFO - Started process (PID=9837) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:00:32.079-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:00:32.080-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:00:32.080-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:00:32.087-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:00:32.111-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:00:32.111-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:00:32.114-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:00:32.114-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:00:32.139-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2025-11-13T17:01:43.086-0800] {processor.py:186} INFO - Started process (PID=9880) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:01:43.086-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:01:43.086-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:01:43.086-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:01:43.094-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:01:43.117-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:01:43.117-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:01:43.120-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:01:43.120-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:01:43.142-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:02:38.243-0800] {processor.py:186} INFO - Started process (PID=9922) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:02:38.243-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:02:38.244-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:02:38.244-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:02:38.251-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:02:38.275-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:02:38.275-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:02:38.277-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:02:38.277-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:02:38.299-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:03:37.741-0800] {processor.py:186} INFO - Started process (PID=9962) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:03:37.742-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:03:37.742-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:03:37.742-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:03:37.750-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:03:37.774-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:03:37.773-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:03:37.776-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:03:37.776-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:03:37.798-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T17:04:39.865-0800] {processor.py:186} INFO - Started process (PID=10010) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:04:39.865-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:04:39.865-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:04:39.865-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:04:39.873-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:04:39.896-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:04:39.896-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:04:39.899-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:04:39.899-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:04:39.921-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:05:40.172-0800] {processor.py:186} INFO - Started process (PID=10070) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:05:40.172-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:05:40.172-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:05:40.172-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:05:40.180-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:05:40.204-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:05:40.204-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:05:40.207-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:05:40.207-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:05:40.229-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T17:06:39.907-0800] {processor.py:186} INFO - Started process (PID=10117) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:06:39.908-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:06:39.908-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:06:39.908-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:06:39.915-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:06:39.939-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:06:39.939-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:06:39.941-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:06:39.941-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:06:39.964-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:07:34.370-0800] {processor.py:186} INFO - Started process (PID=10158) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:07:34.371-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:07:34.371-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:07:34.371-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:07:34.378-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:07:34.402-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:07:34.402-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:07:34.405-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:07:34.405-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:07:34.427-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:09:15.258-0800] {processor.py:186} INFO - Started process (PID=10203) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:09:15.258-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:09:15.258-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:09:15.258-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:09:15.266-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:09:15.290-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:09:15.289-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:09:15.292-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:09:15.292-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:09:15.314-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:10:08.083-0800] {processor.py:186} INFO - Started process (PID=10243) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:10:08.083-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:10:08.084-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:10:08.084-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:10:08.091-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:10:08.115-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:10:08.115-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:10:08.118-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:10:08.117-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:10:08.139-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:11:00.544-0800] {processor.py:186} INFO - Started process (PID=10299) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:11:00.544-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:11:00.544-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:11:00.544-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:11:00.552-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:11:00.575-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:11:00.575-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:11:00.578-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:11:00.578-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:11:00.601-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-11-13T17:11:54.328-0800] {processor.py:186} INFO - Started process (PID=10350) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:11:54.329-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:11:54.329-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:11:54.329-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:11:54.336-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:11:54.360-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:11:54.360-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:11:54.363-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:11:54.363-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:11:54.385-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:12:47.389-0800] {processor.py:186} INFO - Started process (PID=10390) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:12:47.389-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:12:47.390-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:12:47.390-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:12:47.397-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:12:47.421-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:12:47.421-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:12:47.424-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:12:47.424-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:12:47.446-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T17:13:42.907-0800] {processor.py:186} INFO - Started process (PID=10442) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:13:42.908-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:13:42.908-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:13:42.908-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:13:42.916-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:13:42.939-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:13:42.939-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:13:42.942-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:13:42.942-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:13:42.964-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:14:35.934-0800] {processor.py:186} INFO - Started process (PID=10480) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:14:35.934-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:14:35.934-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:14:35.934-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:14:35.942-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:14:35.966-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:14:35.966-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:14:35.968-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:14:35.968-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:14:35.991-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:15:29.329-0800] {processor.py:186} INFO - Started process (PID=10525) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:15:29.330-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:15:29.330-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:15:29.330-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:15:29.338-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:15:29.361-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:15:29.361-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:15:29.364-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:15:29.364-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:15:29.386-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:16:23.831-0800] {processor.py:186} INFO - Started process (PID=10582) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:16:23.831-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:16:23.831-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:16:23.831-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:16:23.839-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:16:23.862-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:16:23.862-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:16:23.865-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:16:23.865-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:16:23.887-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:17:17.232-0800] {processor.py:186} INFO - Started process (PID=10622) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:17:17.232-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:17:17.233-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:17:17.232-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:17:17.240-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:17:17.264-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:17:17.264-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:17:17.267-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:17:17.267-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:17:17.288-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:18:12.162-0800] {processor.py:186} INFO - Started process (PID=10663) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:18:12.162-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:18:12.162-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:18:12.162-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:18:12.170-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:18:12.194-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:18:12.194-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:18:12.197-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:18:12.197-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:18:12.219-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T17:19:05.735-0800] {processor.py:186} INFO - Started process (PID=10703) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:19:05.735-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:19:05.735-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:19:05.735-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:19:05.743-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:19:05.767-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:19:05.766-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:19:05.769-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:19:05.769-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:19:05.791-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:19:57.433-0800] {processor.py:186} INFO - Started process (PID=10743) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:19:57.433-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:19:57.434-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:19:57.434-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:19:57.441-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:19:57.465-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:19:57.465-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:19:57.468-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:19:57.468-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:19:57.490-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T17:20:50.966-0800] {processor.py:186} INFO - Started process (PID=10785) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:20:50.967-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:20:50.967-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:20:50.967-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:20:50.975-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:20:50.999-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:20:50.998-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:20:51.001-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:20:51.001-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:20:51.023-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T17:21:43.887-0800] {processor.py:186} INFO - Started process (PID=10844) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:21:43.887-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:21:43.887-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:21:43.887-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:21:43.895-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:21:43.919-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:21:43.919-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:21:43.921-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:21:43.921-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:21:43.944-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T17:22:36.838-0800] {processor.py:186} INFO - Started process (PID=10884) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:22:36.838-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:22:36.839-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:22:36.839-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:22:36.846-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:22:36.870-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:22:36.870-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:22:36.873-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:22:36.873-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:22:36.895-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T17:23:56.700-0800] {processor.py:186} INFO - Started process (PID=10925) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:23:56.701-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:23:56.701-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:23:56.701-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:23:56.709-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:23:56.733-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:23:56.733-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:23:56.736-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:23:56.736-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:23:56.758-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T17:25:21.655-0800] {processor.py:186} INFO - Started process (PID=10967) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:25:21.655-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:25:21.655-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:25:21.655-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:25:21.663-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:25:21.687-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:25:21.687-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:25:21.689-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:25:21.689-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:25:21.712-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T17:26:23.328-0800] {processor.py:186} INFO - Started process (PID=11009) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:26:23.329-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:26:23.329-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:26:23.329-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:26:23.336-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:26:23.360-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:26:23.360-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:26:23.363-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:26:23.362-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:26:23.384-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:27:18.637-0800] {processor.py:186} INFO - Started process (PID=11054) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:27:18.638-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:27:18.638-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:27:18.638-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:27:18.645-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:27:18.669-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:27:18.669-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:27:18.672-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:27:18.672-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:27:18.694-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:28:32.389-0800] {processor.py:186} INFO - Started process (PID=11097) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:28:32.390-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:28:32.390-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:28:32.390-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:28:32.397-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:28:32.421-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:28:32.421-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:28:32.424-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:28:32.424-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:28:32.448-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2025-11-13T17:30:24.884-0800] {processor.py:186} INFO - Started process (PID=11153) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:30:24.884-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:30:24.884-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:30:24.884-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:30:24.892-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:30:24.916-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:30:24.916-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:30:24.918-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:30:24.918-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:30:24.940-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:33:36.619-0800] {processor.py:186} INFO - Started process (PID=11194) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:33:36.619-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:33:36.619-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:33:36.619-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:33:48.874-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:33:48.927-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:33:48.927-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:33:48.931-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:33:48.931-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:33:49.001-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.288 seconds
+[2025-11-13T17:35:52.625-0800] {processor.py:186} INFO - Started process (PID=11239) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:35:52.625-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:35:52.625-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:35:52.625-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:35:52.633-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:35:52.656-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:35:52.656-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:35:52.659-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:35:52.659-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:35:52.681-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:38:38.256-0800] {processor.py:186} INFO - Started process (PID=11282) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:38:38.257-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:38:38.257-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:38:38.257-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:38:38.265-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:38:38.288-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:38:38.288-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:38:38.291-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:38:38.291-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:38:38.313-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:48:31.175-0800] {processor.py:186} INFO - Started process (PID=11372) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:48:31.175-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:48:31.175-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:48:31.175-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:48:31.183-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:48:31.207-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:48:31.207-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:48:31.209-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:48:31.209-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:48:31.231-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:49:39.770-0800] {processor.py:186} INFO - Started process (PID=11415) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:49:39.771-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:49:39.771-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:49:39.771-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:49:39.778-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:49:39.802-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:49:39.802-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:49:39.804-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:49:39.804-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:49:39.826-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:51:10.715-0800] {processor.py:186} INFO - Started process (PID=11456) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:51:10.715-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:51:10.716-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:51:10.716-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:51:10.723-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:51:10.747-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:51:10.747-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:51:10.750-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:51:10.749-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:51:10.771-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T17:52:34.174-0800] {processor.py:186} INFO - Started process (PID=11534) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:52:34.174-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:52:34.174-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:52:34.174-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:52:34.182-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:52:34.205-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:52:34.205-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:52:34.208-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:52:34.208-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:52:34.229-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.056 seconds
+[2025-11-13T17:53:34.041-0800] {processor.py:186} INFO - Started process (PID=11574) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:53:34.041-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:53:34.041-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:53:34.041-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:53:34.049-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:53:34.073-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:53:34.073-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:53:34.076-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:53:34.076-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:53:34.100-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2025-11-13T17:54:33.263-0800] {processor.py:186} INFO - Started process (PID=11617) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:54:33.264-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T17:54:33.264-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:54:33.264-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:54:33.271-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T17:54:33.295-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:54:33.295-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T17:54:33.297-0800] {logging_mixin.py:190} INFO - [2025-11-13T17:54:33.297-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T17:54:33.319-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:01:10.077-0800] {processor.py:186} INFO - Started process (PID=11664) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:01:10.077-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:01:10.078-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:01:10.078-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:01:10.085-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:01:10.109-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:01:10.109-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:01:10.112-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:01:10.112-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:01:10.134-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:02:42.832-0800] {processor.py:186} INFO - Started process (PID=11726) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:02:42.832-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:02:42.832-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:02:42.832-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:02:42.840-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:02:42.863-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:02:42.863-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:02:42.866-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:02:42.866-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:02:42.888-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:04:37.460-0800] {processor.py:186} INFO - Started process (PID=11801) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:04:37.460-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:04:37.460-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:04:37.460-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:04:37.468-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:04:37.492-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:04:37.492-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:04:37.495-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:04:37.495-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:04:37.517-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-11-13T18:12:24.406-0800] {processor.py:186} INFO - Started process (PID=11874) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:12:24.406-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:12:24.406-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:12:24.406-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:12:24.414-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:12:24.438-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:12:24.438-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:12:24.441-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:12:24.441-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:12:24.464-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-11-13T18:13:31.154-0800] {processor.py:186} INFO - Started process (PID=11920) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:13:31.154-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:13:31.155-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:13:31.155-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:13:31.162-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:13:31.185-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:13:31.185-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:13:31.188-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:13:31.188-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:13:31.210-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.056 seconds
+[2025-11-13T18:14:44.246-0800] {processor.py:186} INFO - Started process (PID=11971) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:14:44.247-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:14:44.247-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:14:44.247-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:14:44.254-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:14:44.278-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:14:44.278-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:14:44.281-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:14:44.281-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:14:44.303-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:16:00.483-0800] {processor.py:186} INFO - Started process (PID=12020) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:16:00.483-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:16:00.483-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:16:00.483-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:16:00.491-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:16:00.515-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:16:00.514-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:16:00.517-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:16:00.517-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:16:00.540-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T18:21:24.803-0800] {processor.py:186} INFO - Started process (PID=12064) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:21:24.803-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:21:24.804-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:21:24.804-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:21:24.811-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:21:24.835-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:21:24.835-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:21:24.838-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:21:24.838-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:21:24.860-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:24:16.995-0800] {processor.py:186} INFO - Started process (PID=12115) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:24:16.996-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:24:16.996-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:24:16.996-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:24:17.004-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:24:17.030-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:24:17.030-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:24:17.032-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:24:17.032-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:24:17.055-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.060 seconds
+[2025-11-13T18:25:11.275-0800] {processor.py:186} INFO - Started process (PID=12156) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:25:11.275-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:25:11.276-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:25:11.276-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:25:11.283-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:25:11.307-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:25:11.307-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:25:11.309-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:25:11.309-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:25:11.331-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:26:14.805-0800] {processor.py:186} INFO - Started process (PID=12197) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:26:14.806-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:26:14.806-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:26:14.806-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:26:14.813-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:26:14.838-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:26:14.837-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:26:14.840-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:26:14.840-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:26:14.862-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T18:27:17.340-0800] {processor.py:186} INFO - Started process (PID=12247) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:27:17.341-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:27:17.341-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:27:17.341-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:27:17.348-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:27:17.372-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:27:17.372-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:27:17.374-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:27:17.374-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:27:17.396-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:28:18.571-0800] {processor.py:186} INFO - Started process (PID=12289) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:28:18.571-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:28:18.571-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:28:18.571-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:28:18.579-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:28:18.602-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:28:18.602-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:28:18.605-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:28:18.605-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:28:18.627-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:29:27.253-0800] {processor.py:186} INFO - Started process (PID=12332) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:29:27.253-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:29:27.253-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:29:27.253-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:29:27.261-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:29:27.285-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:29:27.285-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:29:27.287-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:29:27.287-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:29:27.309-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:34:56.776-0800] {processor.py:186} INFO - Started process (PID=12376) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:34:56.776-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:34:56.776-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:34:56.776-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:34:56.784-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:34:56.808-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:34:56.807-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:34:56.810-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:34:56.810-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:34:56.832-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:36:37.819-0800] {processor.py:186} INFO - Started process (PID=12418) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:36:37.820-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:36:37.820-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:36:37.820-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:36:37.827-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:36:37.851-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:36:37.851-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:36:37.854-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:36:37.854-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:36:37.876-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:38:20.790-0800] {processor.py:186} INFO - Started process (PID=12460) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:38:20.791-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:38:20.791-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:38:20.791-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:38:20.799-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:38:20.822-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:38:20.822-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:38:20.825-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:38:20.825-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:38:20.847-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:39:52.359-0800] {processor.py:186} INFO - Started process (PID=12528) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:39:52.360-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:39:52.360-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:39:52.360-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:39:52.367-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:39:52.391-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:39:52.391-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:39:52.394-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:39:52.394-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:39:52.416-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:40:44.805-0800] {processor.py:186} INFO - Started process (PID=12570) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:40:44.805-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:40:44.805-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:40:44.805-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:40:44.813-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:40:44.837-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:40:44.837-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:40:44.839-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:40:44.839-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:40:44.862-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T18:41:37.790-0800] {processor.py:186} INFO - Started process (PID=12614) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:41:37.790-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:41:37.791-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:41:37.791-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:41:37.798-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:41:37.822-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:41:37.822-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:41:37.824-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:41:37.824-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:41:37.846-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:42:34.578-0800] {processor.py:186} INFO - Started process (PID=12657) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:42:34.578-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:42:34.578-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:42:34.578-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:42:34.586-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:42:34.610-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:42:34.609-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:42:34.612-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:42:34.612-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:42:34.634-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:43:38.542-0800] {processor.py:186} INFO - Started process (PID=12700) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:43:38.542-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:43:38.542-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:43:38.542-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:43:38.550-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:43:38.573-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:43:38.573-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:43:38.576-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:43:38.576-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:43:38.598-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:44:47.262-0800] {processor.py:186} INFO - Started process (PID=12751) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:44:47.262-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:44:47.262-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:44:47.262-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:44:47.270-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:44:47.293-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:44:47.293-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:44:47.296-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:44:47.296-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:44:47.318-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:45:44.904-0800] {processor.py:186} INFO - Started process (PID=12795) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:45:44.904-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:45:44.904-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:45:44.904-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:45:44.912-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:45:44.936-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:45:44.936-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:45:44.938-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:45:44.938-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:45:44.960-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:46:51.564-0800] {processor.py:186} INFO - Started process (PID=12836) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:46:51.564-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:46:51.564-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:46:51.564-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:46:51.572-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:46:51.595-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:46:51.595-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:46:51.598-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:46:51.598-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:46:51.620-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:47:49.263-0800] {processor.py:186} INFO - Started process (PID=12878) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:47:49.263-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:47:49.264-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:47:49.263-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:47:49.271-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:47:49.295-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:47:49.295-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:47:49.298-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:47:49.298-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:47:49.319-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:49:14.255-0800] {processor.py:186} INFO - Started process (PID=12921) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:49:14.255-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:49:14.256-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:49:14.255-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:49:14.263-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:49:14.287-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:49:14.287-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:49:14.290-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:49:14.290-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:49:14.312-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:51:18.689-0800] {processor.py:186} INFO - Started process (PID=13016) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:51:18.690-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:51:18.691-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:51:18.691-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:51:18.698-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:51:18.722-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:51:18.722-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:51:18.725-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:51:18.725-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:51:18.748-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-11-13T18:52:16.434-0800] {processor.py:186} INFO - Started process (PID=13065) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:52:16.435-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:52:16.435-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:52:16.435-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:52:16.442-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:52:16.466-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:52:16.466-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:52:16.469-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:52:16.469-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:52:16.491-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:53:13.849-0800] {processor.py:186} INFO - Started process (PID=13108) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:53:13.849-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:53:13.849-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:53:13.849-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:53:13.857-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:53:13.880-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:53:13.880-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:53:13.883-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:53:13.883-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:53:13.905-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:54:24.609-0800] {processor.py:186} INFO - Started process (PID=13152) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:54:24.609-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:54:24.610-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:54:24.610-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:54:24.617-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:54:24.641-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:54:24.641-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:54:24.644-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:54:24.644-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:54:24.666-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:55:37.361-0800] {processor.py:186} INFO - Started process (PID=13223) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:55:37.361-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:55:37.361-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:55:37.361-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:55:37.369-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:55:37.392-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:55:37.392-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:55:37.395-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:55:37.395-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:55:37.417-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:56:35.400-0800] {processor.py:186} INFO - Started process (PID=13267) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:56:35.400-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:56:35.401-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:56:35.400-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:56:35.408-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:56:35.432-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:56:35.432-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:56:35.435-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:56:35.435-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:56:35.457-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T18:57:31.379-0800] {processor.py:186} INFO - Started process (PID=13311) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:57:31.379-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:57:31.379-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:57:31.379-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:57:31.387-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:57:31.411-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:57:31.411-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:57:31.413-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:57:31.413-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:57:31.435-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T18:58:24.946-0800] {processor.py:186} INFO - Started process (PID=13352) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:58:24.946-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:58:24.946-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:58:24.946-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:58:24.954-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:58:24.978-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:58:24.978-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:58:24.981-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:58:24.981-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:58:25.004-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-11-13T18:59:17.666-0800] {processor.py:186} INFO - Started process (PID=13392) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:59:17.666-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T18:59:17.667-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:59:17.667-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:59:17.674-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T18:59:17.698-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:59:17.698-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T18:59:17.701-0800] {logging_mixin.py:190} INFO - [2025-11-13T18:59:17.701-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T18:59:17.723-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:00:09.667-0800] {processor.py:186} INFO - Started process (PID=13431) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:00:09.667-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:00:09.667-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:00:09.667-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:00:09.675-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:00:09.699-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:00:09.699-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:00:09.702-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:00:09.702-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:00:09.724-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:01:04.534-0800] {processor.py:186} INFO - Started process (PID=13488) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:01:04.534-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:01:04.534-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:01:04.534-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:01:04.542-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:01:04.566-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:01:04.566-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:01:04.568-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:01:04.568-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:01:04.591-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:01:57.943-0800] {processor.py:186} INFO - Started process (PID=13530) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:01:57.944-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:01:57.944-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:01:57.944-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:01:57.951-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:01:57.975-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:01:57.975-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:01:57.978-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:01:57.978-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:01:58.000-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T19:02:51.515-0800] {processor.py:186} INFO - Started process (PID=13570) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:02:51.515-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:02:51.516-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:02:51.516-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:02:51.523-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:02:51.547-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:02:51.547-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:02:51.550-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:02:51.550-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:02:51.572-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:03:44.111-0800] {processor.py:186} INFO - Started process (PID=13619) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:03:44.111-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:03:44.111-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:03:44.111-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:03:44.119-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:03:44.143-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:03:44.143-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:03:44.145-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:03:44.145-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:03:44.167-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T19:04:35.200-0800] {processor.py:186} INFO - Started process (PID=13657) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:04:35.201-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:04:35.201-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:04:35.201-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:04:35.209-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:04:35.232-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:04:35.232-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:04:35.235-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:04:35.235-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:04:35.257-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:05:29.402-0800] {processor.py:186} INFO - Started process (PID=13701) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:05:29.403-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:05:29.403-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:05:29.403-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:05:29.410-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:05:29.435-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:05:29.434-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:05:29.437-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:05:29.437-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:05:29.459-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:06:22.682-0800] {processor.py:186} INFO - Started process (PID=13754) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:06:22.682-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:06:22.683-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:06:22.683-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:06:22.690-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:06:22.714-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:06:22.714-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:06:22.717-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:06:22.717-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:06:22.739-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:07:18.083-0800] {processor.py:186} INFO - Started process (PID=13796) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:07:18.083-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:07:18.084-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:07:18.084-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:07:18.091-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:07:18.115-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:07:18.115-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:07:18.118-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:07:18.118-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:07:18.140-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:08:09.486-0800] {processor.py:186} INFO - Started process (PID=13835) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:08:09.486-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:08:09.486-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:08:09.486-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:08:09.494-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:08:09.518-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:08:09.518-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:08:09.521-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:08:09.521-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:08:09.543-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:09:01.010-0800] {processor.py:186} INFO - Started process (PID=13874) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:09:01.010-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:09:01.010-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:09:01.010-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:09:01.018-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:09:01.042-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:09:01.042-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:09:01.044-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:09:01.044-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:09:01.067-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:09:54.202-0800] {processor.py:186} INFO - Started process (PID=13914) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:09:54.202-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:09:54.203-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:09:54.203-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:09:54.210-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:09:54.234-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:09:54.234-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:09:54.237-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:09:54.237-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:09:54.259-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:10:48.606-0800] {processor.py:186} INFO - Started process (PID=13958) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:10:48.606-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:10:48.606-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:10:48.606-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:10:48.614-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:10:48.638-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:10:48.638-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:10:48.641-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:10:48.641-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:10:48.663-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:11:42.433-0800] {processor.py:186} INFO - Started process (PID=14012) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:11:42.433-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:11:42.434-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:11:42.434-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:11:42.441-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:11:42.465-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:11:42.465-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:11:42.468-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:11:42.468-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:11:42.490-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:12:33.695-0800] {processor.py:186} INFO - Started process (PID=14051) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:12:33.696-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:12:33.696-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:12:33.696-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:12:33.703-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:12:33.727-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:12:33.727-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:12:33.730-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:12:33.730-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:12:33.752-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T19:13:28.030-0800] {processor.py:186} INFO - Started process (PID=14092) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:13:28.030-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:13:28.031-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:13:28.031-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:13:28.038-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:13:28.062-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:13:28.062-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:13:28.065-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:13:28.065-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:13:28.087-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T19:14:21.959-0800] {processor.py:186} INFO - Started process (PID=14132) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:14:21.959-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:14:21.960-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:14:21.960-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:14:21.967-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:14:21.991-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:14:21.991-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:14:21.994-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:14:21.994-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:14:22.016-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:15:12.965-0800] {processor.py:186} INFO - Started process (PID=14171) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:15:12.965-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:15:12.966-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:15:12.966-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:15:12.973-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:15:12.997-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:15:12.997-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:15:13.000-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:15:13.000-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:15:13.022-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:16:04.060-0800] {processor.py:186} INFO - Started process (PID=14215) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:16:04.061-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:16:04.061-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:16:04.061-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:16:04.069-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:16:04.093-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:16:04.093-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:16:04.096-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:16:04.096-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:16:04.118-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:16:56.512-0800] {processor.py:186} INFO - Started process (PID=14267) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:16:56.512-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:16:56.513-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:16:56.512-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:16:56.520-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:16:56.544-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:16:56.544-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:16:56.547-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:16:56.547-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:16:56.569-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:17:49.022-0800] {processor.py:186} INFO - Started process (PID=14306) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:17:49.023-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:17:49.023-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:17:49.023-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:17:49.030-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:17:49.054-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:17:49.054-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:17:49.057-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:17:49.057-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:17:49.079-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T19:18:43.845-0800] {processor.py:186} INFO - Started process (PID=14346) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:18:43.845-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:18:43.846-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:18:43.846-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:18:43.853-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:18:43.877-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:18:43.877-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:18:43.880-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:18:43.880-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:18:43.901-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T19:19:39.745-0800] {processor.py:186} INFO - Started process (PID=14387) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:19:39.745-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:19:39.746-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:19:39.746-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:19:39.753-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:19:39.777-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:19:39.777-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:19:39.780-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:19:39.780-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:19:39.802-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:20:32.189-0800] {processor.py:186} INFO - Started process (PID=14438) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:20:32.189-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:20:32.190-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:20:32.189-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:20:32.197-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:20:32.221-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:20:32.221-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:20:32.223-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:20:32.223-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:20:32.245-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T19:21:25.284-0800] {processor.py:186} INFO - Started process (PID=14496) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:21:25.285-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:21:25.285-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:21:25.285-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:21:25.292-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:21:25.316-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:21:25.316-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:21:25.319-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:21:25.319-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:21:25.341-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:22:17.370-0800] {processor.py:186} INFO - Started process (PID=14543) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:22:17.370-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:22:17.370-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:22:17.370-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:22:17.378-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:22:17.402-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:22:17.402-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:22:17.404-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:22:17.404-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:22:17.426-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:23:12.419-0800] {processor.py:186} INFO - Started process (PID=14586) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:23:12.419-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:23:12.419-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:23:12.419-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:23:12.427-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:23:12.451-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:23:12.451-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:23:12.453-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:23:12.453-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:23:12.475-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:24:06.702-0800] {processor.py:186} INFO - Started process (PID=14625) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:24:06.702-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:24:06.703-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:24:06.703-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:24:06.710-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:24:06.734-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:24:06.734-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:24:06.737-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:24:06.737-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:24:06.759-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:25:01.458-0800] {processor.py:186} INFO - Started process (PID=14665) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:25:01.458-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:25:01.458-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:25:01.458-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:25:01.466-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:25:01.490-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:25:01.489-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:25:01.492-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:25:01.492-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:25:01.514-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T19:25:56.144-0800] {processor.py:186} INFO - Started process (PID=14706) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:25:56.145-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:25:56.145-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:25:56.145-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:25:56.153-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:25:56.176-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:25:56.176-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:25:56.179-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:25:56.179-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:25:56.201-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T19:26:51.113-0800] {processor.py:186} INFO - Started process (PID=14780) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:26:51.113-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:26:51.113-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:26:51.113-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:26:51.121-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:26:51.145-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:26:51.145-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:26:51.147-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:26:51.147-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:26:51.169-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T19:27:45.088-0800] {processor.py:186} INFO - Started process (PID=14822) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:27:45.088-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:27:45.088-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:27:45.088-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:27:45.096-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:27:45.120-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:27:45.120-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:27:45.123-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:27:45.123-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:27:45.144-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:28:35.622-0800] {processor.py:186} INFO - Started process (PID=14862) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:28:35.623-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:28:35.623-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:28:35.623-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:28:35.630-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:28:35.654-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:28:35.654-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:28:35.657-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:28:35.657-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:28:35.679-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.057 seconds
+[2025-11-13T19:29:28.633-0800] {processor.py:186} INFO - Started process (PID=14902) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:29:28.634-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:29:28.634-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:29:28.634-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:29:28.642-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:29:28.666-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:29:28.666-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:29:28.668-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:29:28.668-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:29:28.690-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:30:20.662-0800] {processor.py:186} INFO - Started process (PID=14949) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:30:20.663-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:30:20.663-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:30:20.663-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:30:20.670-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:30:20.694-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:30:20.694-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:30:20.697-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:30:20.697-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:30:20.719-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:31:12.837-0800] {processor.py:186} INFO - Started process (PID=14989) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:31:12.837-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:31:12.837-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:31:12.837-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:31:12.845-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:31:12.869-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:31:12.869-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:31:12.871-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:31:12.871-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:31:12.894-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:32:04.845-0800] {processor.py:186} INFO - Started process (PID=15037) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:32:04.845-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:32:04.846-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:32:04.845-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:32:04.853-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:32:04.877-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:32:04.877-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:32:04.880-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:32:04.880-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:32:04.902-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:32:56.695-0800] {processor.py:186} INFO - Started process (PID=15086) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:32:56.695-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:32:56.696-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:32:56.696-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:32:56.703-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:32:56.728-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:32:56.727-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:32:56.730-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:32:56.730-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:32:56.752-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:33:47.975-0800] {processor.py:186} INFO - Started process (PID=15133) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:33:47.975-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:33:47.975-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:33:47.975-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:33:47.983-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:33:48.007-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:33:48.007-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:33:48.010-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:33:48.010-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:33:48.032-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:34:41.804-0800] {processor.py:186} INFO - Started process (PID=15193) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:34:41.804-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:34:41.805-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:34:41.805-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:34:41.814-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:34:41.841-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:34:41.841-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:34:41.844-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:34:41.844-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:34:41.870-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.067 seconds
+[2025-11-13T19:37:18.164-0800] {processor.py:186} INFO - Started process (PID=15311) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:37:18.166-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:37:18.167-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:37:18.166-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:37:18.216-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:37:18.355-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:37:18.355-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:37:18.370-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:37:18.369-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:37:18.524-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.367 seconds
+[2025-11-13T19:41:05.493-0800] {processor.py:186} INFO - Started process (PID=15417) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:41:05.495-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:41:05.496-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:41:05.496-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:41:05.540-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:41:05.669-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:41:05.668-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:41:05.684-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:41:05.684-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:41:05.880-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.394 seconds
+[2025-11-13T19:44:59.205-0800] {processor.py:186} INFO - Started process (PID=15534) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:44:59.211-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:44:59.213-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:44:59.212-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:44:59.254-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:44:59.391-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:44:59.390-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:44:59.409-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:44:59.408-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:44:59.545-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.346 seconds
+[2025-11-13T19:46:57.173-0800] {processor.py:186} INFO - Started process (PID=15615) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:46:57.174-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:46:57.174-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:46:57.174-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:46:57.181-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:46:57.206-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:46:57.206-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:46:57.209-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:46:57.208-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:46:57.230-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:47:49.085-0800] {processor.py:186} INFO - Started process (PID=15655) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:47:49.085-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:47:49.086-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:47:49.086-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:47:49.093-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:47:49.117-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:47:49.117-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:47:49.120-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:47:49.120-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:47:49.143-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:48:41.964-0800] {processor.py:186} INFO - Started process (PID=15697) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:48:41.965-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:48:41.965-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:48:41.965-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:48:41.973-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:48:41.997-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:48:41.997-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:48:42.000-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:48:42.000-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:48:42.022-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.059 seconds
+[2025-11-13T19:49:33.371-0800] {processor.py:186} INFO - Started process (PID=15736) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:49:33.372-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:49:33.372-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:49:33.372-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:49:33.379-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:49:33.403-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:49:33.403-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:49:33.406-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:49:33.406-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:49:33.428-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:50:26.877-0800] {processor.py:186} INFO - Started process (PID=15776) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:50:26.878-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:50:26.878-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:50:26.878-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:50:26.885-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:50:26.910-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:50:26.910-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:50:26.912-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:50:26.912-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:50:26.935-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:51:21.773-0800] {processor.py:186} INFO - Started process (PID=15825) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:51:21.773-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:51:21.774-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:51:21.774-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:51:21.781-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:51:21.806-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:51:21.805-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:51:21.808-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:51:21.808-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:51:21.830-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.058 seconds
+[2025-11-13T19:53:46.550-0800] {processor.py:186} INFO - Started process (PID=15910) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:53:46.551-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:53:46.552-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:53:46.552-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:53:46.588-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:53:46.721-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:53:46.721-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:53:46.734-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:53:46.733-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:53:46.882-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.336 seconds
+[2025-11-13T19:57:30.130-0800] {processor.py:186} INFO - Started process (PID=16018) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:57:30.132-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T19:57:30.133-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:57:30.133-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:57:30.170-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T19:57:30.303-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:57:30.302-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T19:57:30.317-0800] {logging_mixin.py:190} INFO - [2025-11-13T19:57:30.316-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T19:57:30.462-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.339 seconds
+[2025-11-13T20:01:12.986-0800] {processor.py:186} INFO - Started process (PID=16125) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T20:01:12.987-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T20:01:12.989-0800] {logging_mixin.py:190} INFO - [2025-11-13T20:01:12.989-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T20:01:13.024-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T20:01:13.164-0800] {logging_mixin.py:190} INFO - [2025-11-13T20:01:13.163-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T20:01:13.181-0800] {logging_mixin.py:190} INFO - [2025-11-13T20:01:13.181-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T20:01:13.331-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.351 seconds
+[2025-11-13T20:04:58.140-0800] {processor.py:186} INFO - Started process (PID=16232) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T20:04:58.141-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-11-13T20:04:58.142-0800] {logging_mixin.py:190} INFO - [2025-11-13T20:04:58.142-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T20:04:58.182-0800] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-11-13T20:04:58.312-0800] {logging_mixin.py:190} INFO - [2025-11-13T20:04:58.312-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T20:04:58.332-0800] {logging_mixin.py:190} INFO - [2025-11-13T20:04:58.332-0800] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-11-13T20:04:58.484-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/tutorial_dag.py took 0.351 seconds

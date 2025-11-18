@@ -1,0 +1,41 @@
+[2025-11-12T21:31:31.960-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-12T21:31:31.962-0800] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_data_extraction.extract_popular_movies manual__2025-11-13T05:31:25.196747+00:00 [queued]>
+[2025-11-12T21:31:31.964-0800] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_data_extraction.extract_popular_movies manual__2025-11-13T05:31:25.196747+00:00 [queued]>
+[2025-11-12T21:31:31.964-0800] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-11-12T21:31:31.966-0800] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): extract_popular_movies> on 2025-11-13 05:31:25.196747+00:00
+[2025-11-12T21:31:31.971-0800] {logging_mixin.py:190} WARNING - /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1925) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-12T21:31:31.972-0800] {standard_task_runner.py:72} INFO - Started process 1926 to run task
+[2025-11-12T21:31:31.971-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_data_extraction', 'extract_popular_movies', 'manual__2025-11-13T05:31:25.196747+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_extraction_dag.py', '--cfg-path', '/var/folders/r9/q22xmvj17r590_phm7qsfl9h0000gn/T/tmpl0froi75']
+[2025-11-12T21:31:31.972-0800] {standard_task_runner.py:105} INFO - Job 44: Subtask extract_popular_movies
+[2025-11-12T21:31:31.982-0800] {task_command.py:467} INFO - Running <TaskInstance: tmdb_data_extraction.extract_popular_movies manual__2025-11-13T05:31:25.196747+00:00 [running]> on host dipins-macbook-pro.local
+[2025-11-12T21:31:31.997-0800] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='team7' AIRFLOW_CTX_DAG_ID='tmdb_data_extraction' AIRFLOW_CTX_TASK_ID='extract_popular_movies' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T05:31:25.196747+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-13T05:31:25.196747+00:00'
+[2025-11-12T21:31:31.998-0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-11-12T21:31:31.998-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-11-12T21:31:31.998-0800] {logging_mixin.py:190} INFO - Current task name:extract_popular_movies state:running start_date:2025-11-13 05:31:31.962784+00:00
+[2025-11-12T21:31:31.998-0800] {logging_mixin.py:190} INFO - Dag name:tmdb_data_extraction and current dag run status:running
+[2025-11-12T21:31:31.998-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-12T21:31:31.998-0800] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/r9/q22xmvj17r590_phm7qsfl9h0000gn/T
+[2025-11-12T21:31:31.999-0800] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/dipinjassal/ml/tmdb_data_warehouse && /Users/dipinjassal/ml/tmdb_data_warehouse/venv/bin/python scripts/airflow_extract_movies.py']
+[2025-11-12T21:31:32.001-0800] {subprocess.py:86} INFO - Output:
+[2025-11-12T21:31:33.979-0800] {subprocess.py:93} INFO - EXTRACTING MOVIES
+[2025-11-12T21:31:33.982-0800] {subprocess.py:93} INFO - TMDB Client initialized with base URL: https://api.themoviedb.org/3
+[2025-11-12T21:31:33.984-0800] {subprocess.py:93} INFO - ✓ Connected to MongoDB: tmdb-raw
+[2025-11-12T21:31:33.986-0800] {subprocess.py:93} INFO - Fetching 2 pages of popular movies...
+[2025-11-12T21:31:33.987-0800] {subprocess.py:93} INFO -   ✓ Page 1: Got 20 movies
+[2025-11-12T21:31:33.989-0800] {subprocess.py:93} INFO -   ✓ Page 2: Got 20 movies
+[2025-11-12T21:31:33.990-0800] {subprocess.py:93} INFO - ✅ Total movies fetched: 40
+[2025-11-12T21:31:33.991-0800] {subprocess.py:93} INFO - Inserting 40 movies...
+[2025-11-12T21:31:33.992-0800] {subprocess.py:93} INFO -   ✓ Inserted: 0, Updated: 40
+[2025-11-12T21:31:33.993-0800] {subprocess.py:93} INFO - SUCCESS: 40 movies
+[2025-11-12T21:31:33.994-0800] {subprocess.py:93} INFO - ✓ TMDB Client session closed
+[2025-11-12T21:31:33.995-0800] {subprocess.py:93} INFO - ✓ MongoDB connection closed
+[2025-11-12T21:31:34.374-0800] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-11-12T21:31:34.382-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-12T21:31:34.383-0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=tmdb_data_extraction, task_id=extract_popular_movies, run_id=manual__2025-11-13T05:31:25.196747+00:00, execution_date=20251113T053125, start_date=20251113T053131, end_date=20251113T053134
+[2025-11-12T21:31:34.386-0800] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-11-12T21:31:34.386-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-11-12T21:31:34.386-0800] {logging_mixin.py:190} INFO - Dag name:tmdb_data_extraction queued_at:2025-11-13 05:31:25.211548+00:00
+[2025-11-12T21:31:34.386-0800] {logging_mixin.py:190} INFO - Task hostname:dipins-macbook-pro.local operator:BashOperator
+[2025-11-12T21:31:34.423-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-12T21:31:34.432-0800] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-12T21:31:34.433-0800] {local_task_job_runner.py:245} INFO - ::endgroup::

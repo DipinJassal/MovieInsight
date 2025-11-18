@@ -1,0 +1,156 @@
+version: 2
+
+sources:
+  - name: raw
+    database: TMDB_DW
+    schema: RAW
+    tables:
+      - name: raw_movies
+        description: "Raw movie data from TMDB API"
+      - name: raw_credits
+        description: "Raw cast and crew credits"
+      - name: raw_genres
+        description: "Raw genre categories"
+      - name: raw_companies
+        description: "Raw production companies"
+
+models:
+  # Staging models
+  - name: stg_movies
+    description: "Cleaned and standardized movie data"
+    columns:
+      - name: movie_id
+        description: "TMDB movie identifier"
+        tests:
+          - unique
+          - not_null
+      - name: title
+        description: "Movie title"
+        tests:
+          - not_null
+      - name: release_date
+        description: "Movie release date"
+        tests:
+          - not_null
+      - name: budget
+        description: "Movie budget in USD"
+      - name: revenue
+        description: "Movie revenue in USD"
+      - name: roi_percentage
+        description: "Return on investment percentage"
+
+  - name: stg_credits
+    description: "Cleaned cast and crew data"
+    columns:
+      - name: credit_id
+        description: "Unique credit identifier"
+        tests:
+          - unique
+          - not_null
+      - name: movie_id
+        description: "Movie identifier"
+        tests:
+          - not_null
+      - name: person_id
+        description: "Person identifier"
+        tests:
+          - not_null
+
+  # Dimension models
+  - name: dim_genre
+    description: "Dimension table for movie genres"
+    columns:
+      - name: genre_key
+        description: "Surrogate key for genre"
+        tests:
+          - unique
+          - not_null
+      - name: genre_id
+        description: "TMDB genre ID"
+        tests:
+          - unique
+          - not_null
+      - name: genre_name
+        description: "Genre name"
+        tests:
+          - not_null
+
+  - name: dim_person
+    description: "Dimension table for people"
+    columns:
+      - name: person_key
+        description: "Surrogate key for person"
+        tests:
+          - unique
+          - not_null
+      - name: person_id
+        description: "TMDB person ID"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_company
+    description: "Dimension table for production companies"
+    columns:
+      - name: company_key
+        description: "Surrogate key for company"
+        tests:
+          - unique
+          - not_null
+      - name: company_id
+        description: "TMDB company ID"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_time
+    description: "Dimension table for dates"
+    columns:
+      - name: date_key
+        description: "Date key in YYYYMMDD format"
+        tests:
+          - unique
+          - not_null
+      - name: full_date
+        description: "Full date value"
+        tests:
+          - not_null
+
+  # Fact models
+  - name: fact_movie
+    description: "Fact table containing movie information and metrics"
+    columns:
+      - name: movie_key
+        description: "Surrogate key for movie"
+        tests:
+          - unique
+          - not_null
+      - name: movie_id
+        description: "TMDB movie ID"
+        tests:
+          - not_null
+      - name: genre_key
+        description: "Foreign key to dim_genre"
+        tests:
+          - not_null
+      - name: revenue
+        description: "Movie revenue in USD"
+      - name: budget
+        description: "Movie budget in USD"
+
+  - name: fact_credit
+    description: "Fact table for movie credits"
+    columns:
+      - name: credit_key
+        description: "Surrogate key for credit"
+        tests:
+          - unique
+          - not_null
+      - name: movie_key
+        description: "Foreign key to fact_movie"
+        tests:
+          - not_null
+      - name: person_key
+        description: "Foreign key to dim_person"
+        tests:
+          - not_null

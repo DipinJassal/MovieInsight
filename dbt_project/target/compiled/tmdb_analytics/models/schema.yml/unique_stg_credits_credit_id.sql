@@ -1,0 +1,14 @@
+
+    
+    
+
+select
+    credit_id as unique_field,
+    count(*) as n_records
+
+from TMDB_DW.ANALYTICS_staging.stg_credits
+where credit_id is not null
+group by credit_id
+having count(*) > 1
+
+

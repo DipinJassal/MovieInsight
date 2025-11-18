@@ -1,0 +1,14 @@
+tmdb_snowflake:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: PSMDSVM-MUC25951
+      user: charveesaraiya
+      password: Charvee$araiya2003
+      role: ACCOUNTADMIN
+      database: TMDB_DW
+      warehouse: COMPUTE_WH
+      schema: ANALYTICS
+      threads: 4
+      client_session_keep_alive: False

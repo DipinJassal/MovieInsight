@@ -1,0 +1,74 @@
+[2025-11-12T21:23:47.114-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-12T21:23:47.117-0800] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_data_extraction.extract_movie_details manual__2025-11-13T02:22:12.869894+00:00 [queued]>
+[2025-11-12T21:23:47.119-0800] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_data_extraction.extract_movie_details manual__2025-11-13T02:22:12.869894+00:00 [queued]>
+[2025-11-12T21:23:47.119-0800] {taskinstance.py:2865} INFO - Starting attempt 1 of 3
+[2025-11-12T21:23:47.121-0800] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): extract_movie_details> on 2025-11-13 02:22:12.869894+00:00
+[2025-11-12T21:23:47.125-0800] {logging_mixin.py:190} WARNING - /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1750) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-12T21:23:47.125-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_data_extraction', 'extract_movie_details', 'manual__2025-11-13T02:22:12.869894+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_extraction_dag.py', '--cfg-path', '/var/folders/r9/q22xmvj17r590_phm7qsfl9h0000gn/T/tmpn2dj6dyh']
+[2025-11-12T21:23:47.126-0800] {standard_task_runner.py:72} INFO - Started process 1751 to run task
+[2025-11-12T21:23:47.126-0800] {standard_task_runner.py:105} INFO - Job 39: Subtask extract_movie_details
+[2025-11-12T21:23:47.137-0800] {task_command.py:467} INFO - Running <TaskInstance: tmdb_data_extraction.extract_movie_details manual__2025-11-13T02:22:12.869894+00:00 [running]> on host dipins-macbook-pro.local
+[2025-11-12T21:23:47.151-0800] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='team7' AIRFLOW_CTX_DAG_ID='tmdb_data_extraction' AIRFLOW_CTX_TASK_ID='extract_movie_details' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T02:22:12.869894+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-13T02:22:12.869894+00:00'
+[2025-11-12T21:23:47.151-0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-11-12T21:23:47.151-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-11-12T21:23:47.151-0800] {logging_mixin.py:190} INFO - Current task name:extract_movie_details state:running start_date:2025-11-13 05:23:47.117754+00:00
+[2025-11-12T21:23:47.152-0800] {logging_mixin.py:190} INFO - Dag name:tmdb_data_extraction and current dag run status:running
+[2025-11-12T21:23:47.152-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-12T21:23:47.152-0800] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/r9/q22xmvj17r590_phm7qsfl9h0000gn/T
+[2025-11-12T21:23:47.152-0800] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/dipinjassal/ml/tmdb_data_warehouse && /Users/dipinjassal/ml/tmdb_data_warehouse/venv/bin/python scripts/airflow_extract_details.py']
+[2025-11-12T21:23:47.155-0800] {subprocess.py:86} INFO - Output:
+[2025-11-12T21:23:50.515-0800] {subprocess.py:93} INFO - EXTRACTING MOVIE DETAILS
+[2025-11-12T21:23:50.518-0800] {subprocess.py:93} INFO - TMDB Client initialized with base URL: https://api.themoviedb.org/3
+[2025-11-12T21:23:50.521-0800] {subprocess.py:93} INFO - ✓ Connected to MongoDB: tmdb-raw
+[2025-11-12T21:23:50.523-0800] {subprocess.py:93} INFO - [1/10] Movie 1062722
+[2025-11-12T21:23:50.524-0800] {subprocess.py:93} INFO - Inserting 1 movies...
+[2025-11-12T21:23:50.525-0800] {subprocess.py:93} INFO -   ✓ Inserted: 0, Updated: 1
+[2025-11-12T21:23:50.526-0800] {subprocess.py:93} INFO -   ✓ Companies: 0 new, 3 updated
+[2025-11-12T21:23:50.528-0800] {subprocess.py:93} INFO - [2/10] Movie 1242898
+[2025-11-12T21:23:50.529-0800] {subprocess.py:93} INFO - Inserting 1 movies...
+[2025-11-12T21:23:50.530-0800] {subprocess.py:93} INFO -   ✓ Inserted: 0, Updated: 1
+[2025-11-12T21:23:50.531-0800] {subprocess.py:93} INFO -   ✓ Companies: 0 new, 5 updated
+[2025-11-12T21:23:50.532-0800] {subprocess.py:93} INFO - [3/10] Movie 1197137
+[2025-11-12T21:23:50.533-0800] {subprocess.py:93} INFO - Inserting 1 movies...
+[2025-11-12T21:23:50.534-0800] {subprocess.py:93} INFO -   ✓ Inserted: 0, Updated: 1
+[2025-11-12T21:23:50.534-0800] {subprocess.py:93} INFO -   ✓ Companies: 0 new, 4 updated
+[2025-11-12T21:23:50.535-0800] {subprocess.py:93} INFO - [4/10] Movie 1161617
+[2025-11-12T21:23:50.537-0800] {subprocess.py:93} INFO - Inserting 1 movies...
+[2025-11-12T21:23:50.537-0800] {subprocess.py:93} INFO -   ✓ Inserted: 0, Updated: 1
+[2025-11-12T21:23:50.538-0800] {subprocess.py:93} INFO -   ✓ Companies: 0 new, 5 updated
+[2025-11-12T21:23:50.539-0800] {subprocess.py:93} INFO - [5/10] Movie 755898
+[2025-11-12T21:23:50.540-0800] {subprocess.py:93} INFO - Inserting 1 movies...
+[2025-11-12T21:23:50.540-0800] {subprocess.py:93} INFO -   ✓ Inserted: 0, Updated: 1
+[2025-11-12T21:23:50.541-0800] {subprocess.py:93} INFO -   ✓ Companies: 0 new, 3 updated
+[2025-11-12T21:23:50.541-0800] {subprocess.py:93} INFO - [6/10] Movie 1096563
+[2025-11-12T21:23:50.542-0800] {subprocess.py:93} INFO - Inserting 1 movies...
+[2025-11-12T21:23:50.542-0800] {subprocess.py:93} INFO -   ✓ Inserted: 0, Updated: 1
+[2025-11-12T21:23:50.542-0800] {subprocess.py:93} INFO - [7/10] Movie 1025527
+[2025-11-12T21:23:50.543-0800] {subprocess.py:93} INFO - Inserting 1 movies...
+[2025-11-12T21:23:50.543-0800] {subprocess.py:93} INFO -   ✓ Inserted: 0, Updated: 1
+[2025-11-12T21:23:50.543-0800] {subprocess.py:93} INFO -   ✓ Companies: 0 new, 4 updated
+[2025-11-12T21:23:50.544-0800] {subprocess.py:93} INFO - [8/10] Movie 1218925
+[2025-11-12T21:23:50.544-0800] {subprocess.py:93} INFO - Inserting 1 movies...
+[2025-11-12T21:23:50.544-0800] {subprocess.py:93} INFO -   ✓ Inserted: 0, Updated: 1
+[2025-11-12T21:23:50.545-0800] {subprocess.py:93} INFO -   ✓ Companies: 0 new, 1 updated
+[2025-11-12T21:23:50.545-0800] {subprocess.py:93} INFO - [9/10] Movie 1561969
+[2025-11-12T21:23:50.545-0800] {subprocess.py:93} INFO - Inserting 1 movies...
+[2025-11-12T21:23:50.546-0800] {subprocess.py:93} INFO -   ✓ Inserted: 0, Updated: 1
+[2025-11-12T21:23:50.546-0800] {subprocess.py:93} INFO -   ✓ Companies: 0 new, 2 updated
+[2025-11-12T21:23:50.547-0800] {subprocess.py:93} INFO - [10/10] Movie 1311031
+[2025-11-12T21:23:50.547-0800] {subprocess.py:93} INFO - Inserting 1 movies...
+[2025-11-12T21:23:50.547-0800] {subprocess.py:93} INFO -   ✓ Inserted: 0, Updated: 1
+[2025-11-12T21:23:50.548-0800] {subprocess.py:93} INFO -   ✓ Companies: 0 new, 3 updated
+[2025-11-12T21:23:50.548-0800] {subprocess.py:93} INFO - SUCCESS: 10 details
+[2025-11-12T21:23:50.548-0800] {subprocess.py:93} INFO - ✓ TMDB Client session closed
+[2025-11-12T21:23:50.548-0800] {subprocess.py:93} INFO - ✓ MongoDB connection closed
+[2025-11-12T21:23:51.023-0800] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-11-12T21:23:51.033-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-12T21:23:51.034-0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=tmdb_data_extraction, task_id=extract_movie_details, run_id=manual__2025-11-13T02:22:12.869894+00:00, execution_date=20251113T022212, start_date=20251113T052347, end_date=20251113T052351
+[2025-11-12T21:23:51.036-0800] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-11-12T21:23:51.037-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-11-12T21:23:51.037-0800] {logging_mixin.py:190} INFO - Dag name:tmdb_data_extraction queued_at:2025-11-13 02:22:12.875287+00:00
+[2025-11-12T21:23:51.037-0800] {logging_mixin.py:190} INFO - Task hostname:dipins-macbook-pro.local operator:BashOperator
+[2025-11-12T21:23:51.047-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-12T21:23:51.053-0800] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-12T21:23:51.054-0800] {local_task_job_runner.py:245} INFO - ::endgroup::

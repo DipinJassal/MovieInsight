@@ -1,0 +1,29 @@
+[2025-11-12T21:30:04.451-0800] {processor.py:186} INFO - Started process (PID=1848) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-11-12T21:30:04.452-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-11-12T21:30:04.452-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:04.452-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-11-12T21:30:04.456-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-11-12T21:30:04.532-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:04.531-0800] {override.py:1900} INFO - Created Permission View: can read on DAG:example_complex
+[2025-11-12T21:30:04.534-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:04.534-0800] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_complex
+[2025-11-12T21:30:04.535-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:04.535-0800] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_complex
+[2025-11-12T21:30:04.537-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:04.537-0800] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_complex
+[2025-11-12T21:30:04.539-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:04.539-0800] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2025-11-12T21:30:04.540-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:04.540-0800] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_complex
+[2025-11-12T21:30:04.541-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:04.541-0800] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2025-11-12T21:30:04.542-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:04.541-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:30:04.545-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:04.545-0800] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2025-11-12T21:30:04.545-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:04.545-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-11-12T21:30:04.550-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.100 seconds
+[2025-11-12T21:38:00.034-0800] {processor.py:186} INFO - Started process (PID=2163) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-11-12T21:38:00.034-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-11-12T21:38:00.034-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:38:00.034-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-11-12T21:38:00.038-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-11-12T21:38:00.069-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:38:00.069-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:38:00.072-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:38:00.072-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-11-12T21:38:00.077-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.044 seconds
+[2025-11-12T21:51:03.244-0800] {processor.py:186} INFO - Started process (PID=2438) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-11-12T21:51:03.244-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2025-11-12T21:51:03.244-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:03.244-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-11-12T21:51:03.247-0800] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py
+[2025-11-12T21:51:03.275-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:03.275-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:51:03.278-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:03.278-0800] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2025-11-12T21:51:03.283-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_complex.py took 0.040 seconds

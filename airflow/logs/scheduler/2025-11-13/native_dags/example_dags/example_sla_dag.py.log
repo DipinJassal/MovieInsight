@@ -1,0 +1,57 @@
+[2025-11-12T21:29:17.954-0800] {processor.py:186} INFO - Started process (PID=1813) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:29:17.955-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-11-12T21:29:17.955-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:17.955-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:29:17.966-0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:29:18.031-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:18.031-0800] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_sla_dag
+[2025-11-12T21:29:18.033-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:18.033-0800] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_sla_dag
+[2025-11-12T21:29:18.034-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:18.034-0800] {override.py:1900} INFO - Created Permission View: can read on DAG:example_sla_dag
+[2025-11-12T21:29:18.036-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:18.036-0800] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_sla_dag
+[2025-11-12T21:29:18.037-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:18.037-0800] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_sla_dag
+[2025-11-12T21:29:18.038-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:18.038-0800] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_sla_dag
+[2025-11-12T21:29:18.039-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:18.039-0800] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_sla_dag
+[2025-11-12T21:29:18.040-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:18.039-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:29:18.042-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:18.042-0800] {dag.py:3262} INFO - Creating ORM DAG for example_sla_dag
+[2025-11-12T21:29:18.045-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:18.045-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-11-13 05:26:00+00:00, run_after=2025-11-13 05:28:00+00:00
+[2025-11-12T21:29:18.049-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.095 seconds
+[2025-11-12T21:30:47.622-0800] {processor.py:186} INFO - Started process (PID=1886) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:30:47.622-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-11-12T21:30:47.622-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:47.622-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:30:47.636-0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:30:47.662-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:47.661-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:30:47.686-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:47.686-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-11-13 05:28:00+00:00, run_after=2025-11-13 05:30:00+00:00
+[2025-11-12T21:30:47.691-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.070 seconds
+[2025-11-12T21:34:22.746-0800] {processor.py:186} INFO - Started process (PID=2038) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:34:22.746-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-11-12T21:34:22.747-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:34:22.747-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:34:22.758-0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:34:22.782-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:34:22.782-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:34:22.806-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:34:22.806-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-11-13 05:32:00+00:00, run_after=2025-11-13 05:34:00+00:00
+[2025-11-12T21:34:22.811-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.066 seconds
+[2025-11-12T21:37:16.339-0800] {processor.py:186} INFO - Started process (PID=2129) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:37:16.339-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-11-12T21:37:16.339-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:37:16.339-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:37:16.351-0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:37:16.375-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:37:16.375-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:37:16.397-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:37:16.397-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-11-13 05:34:00+00:00, run_after=2025-11-13 05:36:00+00:00
+[2025-11-12T21:37:16.402-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.064 seconds
+[2025-11-12T21:50:21.570-0800] {processor.py:186} INFO - Started process (PID=2406) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:50:21.570-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-11-12T21:50:21.570-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:50:21.570-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:50:21.582-0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:50:21.605-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:50:21.605-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:50:21.629-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:50:21.629-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-11-13 05:48:00+00:00, run_after=2025-11-13 05:50:00+00:00
+[2025-11-12T21:50:21.634-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.065 seconds
+[2025-11-12T21:51:46.016-0800] {processor.py:186} INFO - Started process (PID=2469) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:51:46.017-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-11-12T21:51:46.017-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:46.017-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:51:46.028-0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:51:46.052-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:46.052-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:51:46.075-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:46.075-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-11-13 05:48:00+00:00, run_after=2025-11-13 05:50:00+00:00
+[2025-11-12T21:51:46.079-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.064 seconds
+[2025-11-12T21:58:39.454-0800] {processor.py:186} INFO - Started process (PID=2619) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:58:39.454-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2025-11-12T21:58:39.454-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:58:39.454-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:58:39.466-0800] {processor.py:925} INFO - DAG(s) 'example_sla_dag' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py
+[2025-11-12T21:58:39.490-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:58:39.490-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:58:39.513-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:58:39.513-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sla_dag to 2025-11-13 05:56:00+00:00, run_after=2025-11-13 05:58:00+00:00
+[2025-11-12T21:58:39.518-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sla_dag.py took 0.065 seconds

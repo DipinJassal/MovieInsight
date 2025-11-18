@@ -1,0 +1,29 @@
+[2025-11-12T21:30:10.313-0800] {processor.py:186} INFO - Started process (PID=1858) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-11-12T21:30:10.313-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-11-12T21:30:10.314-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:10.314-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-11-12T21:30:10.316-0800] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-11-12T21:30:10.395-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:10.394-0800] {override.py:1900} INFO - Created Permission View: can read on DAG:example_branch_labels
+[2025-11-12T21:30:10.397-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:10.397-0800] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_branch_labels
+[2025-11-12T21:30:10.399-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:10.399-0800] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_branch_labels
+[2025-11-12T21:30:10.401-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:10.401-0800] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_branch_labels
+[2025-11-12T21:30:10.403-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:10.403-0800] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_branch_labels
+[2025-11-12T21:30:10.404-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:10.404-0800] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_branch_labels
+[2025-11-12T21:30:10.405-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:10.405-0800] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_branch_labels
+[2025-11-12T21:30:10.405-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:10.405-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:30:10.409-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:10.409-0800] {dag.py:3262} INFO - Creating ORM DAG for example_branch_labels
+[2025-11-12T21:30:10.412-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:10.412-0800] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-11-12 00:00:00+00:00, run_after=2025-11-13 00:00:00+00:00
+[2025-11-12T21:30:10.417-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.105 seconds
+[2025-11-12T21:38:06.052-0800] {processor.py:186} INFO - Started process (PID=2169) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-11-12T21:38:06.053-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-11-12T21:38:06.053-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:38:06.053-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-11-12T21:38:06.055-0800] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-11-12T21:38:06.081-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:38:06.081-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:38:06.085-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:38:06.085-0800] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-11-12 00:00:00+00:00, run_after=2025-11-13 00:00:00+00:00
+[2025-11-12T21:38:06.090-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.038 seconds
+[2025-11-12T21:51:08.132-0800] {processor.py:186} INFO - Started process (PID=2442) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-11-12T21:51:08.132-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py for tasks to queue
+[2025-11-12T21:51:08.132-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:08.132-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-11-12T21:51:08.135-0800] {processor.py:925} INFO - DAG(s) 'example_branch_labels' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py
+[2025-11-12T21:51:08.162-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:08.162-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:51:08.168-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:08.168-0800] {dag.py:4180} INFO - Setting next_dagrun for example_branch_labels to 2025-11-12 00:00:00+00:00, run_after=2025-11-13 00:00:00+00:00
+[2025-11-12T21:51:08.173-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_branch_labels.py took 0.043 seconds

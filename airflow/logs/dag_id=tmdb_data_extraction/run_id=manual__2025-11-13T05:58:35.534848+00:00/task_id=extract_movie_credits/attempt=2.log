@@ -1,0 +1,53 @@
+[2025-11-13T15:40:50.104-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-13T15:40:50.107-0800] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_data_extraction.extract_movie_credits manual__2025-11-13T05:58:35.534848+00:00 [queued]>
+[2025-11-13T15:40:50.109-0800] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_data_extraction.extract_movie_credits manual__2025-11-13T05:58:35.534848+00:00 [queued]>
+[2025-11-13T15:40:50.109-0800] {taskinstance.py:2865} INFO - Starting attempt 2 of 2
+[2025-11-13T15:40:50.112-0800] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): extract_movie_credits> on 2025-11-13 05:58:35.534848+00:00
+[2025-11-13T15:40:50.119-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_data_extraction', 'extract_movie_credits', 'manual__2025-11-13T05:58:35.534848+00:00', '--job-id', '69', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_extraction_dag.py', '--cfg-path', '/var/folders/r9/q22xmvj17r590_phm7qsfl9h0000gn/T/tmp2esm64zd']
+[2025-11-13T15:40:50.120-0800] {standard_task_runner.py:105} INFO - Job 69: Subtask extract_movie_credits
+[2025-11-13T15:40:50.120-0800] {logging_mixin.py:190} WARNING - /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=8769) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-13T15:40:50.121-0800] {standard_task_runner.py:72} INFO - Started process 8770 to run task
+[2025-11-13T15:40:50.132-0800] {task_command.py:467} INFO - Running <TaskInstance: tmdb_data_extraction.extract_movie_credits manual__2025-11-13T05:58:35.534848+00:00 [running]> on host dipins-macbook-pro.local
+[2025-11-13T15:40:50.147-0800] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='team7' AIRFLOW_CTX_DAG_ID='tmdb_data_extraction' AIRFLOW_CTX_TASK_ID='extract_movie_credits' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T05:58:35.534848+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-13T05:58:35.534848+00:00'
+[2025-11-13T15:40:50.148-0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-11-13T15:40:50.148-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-11-13T15:40:50.148-0800] {logging_mixin.py:190} INFO - Current task name:extract_movie_credits state:running start_date:2025-11-13 23:40:50.107634+00:00
+[2025-11-13T15:40:50.148-0800] {logging_mixin.py:190} INFO - Dag name:tmdb_data_extraction and current dag run status:running
+[2025-11-13T15:40:50.148-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-13T15:40:50.149-0800] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/r9/q22xmvj17r590_phm7qsfl9h0000gn/T
+[2025-11-13T15:40:50.149-0800] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/dipinjassal/ml/tmdb_data_warehouse && /Users/dipinjassal/ml/tmdb_data_warehouse/venv/bin/python scripts/airflow_extract_credits.py']
+[2025-11-13T15:40:50.153-0800] {subprocess.py:86} INFO - Output:
+[2025-11-13T16:40:44.220-0800] {job.py:229} INFO - Heartbeat recovered after 14.94 seconds
+[2025-11-13T16:41:00.021-0800] {timeout.py:68} ERROR - Process timed out, PID: 8770
+[2025-11-13T16:41:00.023-0800] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2025-11-13T16:41:00.030-0800] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 762, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/operators/bash.py", line 240, in execute
+    result = self.subprocess_hook.run_command(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/hooks/subprocess.py", line 91, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b""):
+  File "/Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: Timeout, PID: 8770
+[2025-11-13T16:41:00.035-0800] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-11-13T16:41:00.035-0800] {logging_mixin.py:190} INFO - Task start:2025-11-13 23:40:50.107634+00:00 end:2025-11-14 00:41:00.034892+00:00 duration:3609.927258
+[2025-11-13T16:41:00.036-0800] {logging_mixin.py:190} INFO - Task:<Task(BashOperator): extract_movie_credits> dag:<DAG: tmdb_data_extraction> dagrun:<DagRun tmdb_data_extraction @ 2025-11-13 05:58:35.534848+00:00: manual__2025-11-13T05:58:35.534848+00:00, state:running, queued_at: 2025-11-13 05:58:35.541343+00:00. externally triggered: True>
+[2025-11-13T16:41:00.036-0800] {logging_mixin.py:190} INFO - Failure caused by Timeout, PID: 8770
+[2025-11-13T16:41:00.037-0800] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=tmdb_data_extraction, task_id=extract_movie_credits, run_id=manual__2025-11-13T05:58:35.534848+00:00, execution_date=20251113T055835, start_date=20251113T234050, end_date=20251114T004100
+[2025-11-13T16:41:00.042-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-13T16:41:00.071-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 2
+[2025-11-13T16:41:00.077-0800] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-13T16:41:00.077-0800] {local_task_job_runner.py:245} INFO - ::endgroup::

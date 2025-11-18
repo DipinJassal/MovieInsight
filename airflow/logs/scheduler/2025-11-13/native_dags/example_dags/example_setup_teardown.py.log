@@ -1,0 +1,43 @@
+[2025-11-12T21:29:26.385-0800] {processor.py:186} INFO - Started process (PID=1818) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:29:26.386-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-11-12T21:29:26.386-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:26.386-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:29:26.388-0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:29:26.466-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:26.466-0800] {override.py:1900} INFO - Created Permission View: can read on DAG:example_setup_teardown
+[2025-11-12T21:29:26.469-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:26.469-0800] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_setup_teardown
+[2025-11-12T21:29:26.471-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:26.471-0800] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_setup_teardown
+[2025-11-12T21:29:26.473-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:26.473-0800] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_setup_teardown
+[2025-11-12T21:29:26.474-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:26.474-0800] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_setup_teardown
+[2025-11-12T21:29:26.475-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:26.475-0800] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_setup_teardown
+[2025-11-12T21:29:26.477-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:26.477-0800] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_setup_teardown
+[2025-11-12T21:29:26.477-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:26.477-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:29:26.481-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:26.481-0800] {dag.py:3262} INFO - Creating ORM DAG for example_setup_teardown
+[2025-11-12T21:29:26.481-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:26.481-0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-11-12T21:29:26.486-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.102 seconds
+[2025-11-12T21:30:54.569-0800] {processor.py:186} INFO - Started process (PID=1891) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:30:54.570-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-11-12T21:30:54.570-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:54.570-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:30:54.572-0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:30:54.598-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:54.598-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:30:54.601-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:54.601-0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-11-12T21:30:54.605-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.037 seconds
+[2025-11-12T21:34:29.917-0800] {processor.py:186} INFO - Started process (PID=2043) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:34:29.917-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-11-12T21:34:29.917-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:34:29.917-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:34:29.920-0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:34:29.945-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:34:29.945-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:34:29.948-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:34:29.948-0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-11-12T21:34:29.952-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.036 seconds
+[2025-11-12T21:37:24.840-0800] {processor.py:186} INFO - Started process (PID=2134) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:37:24.840-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-11-12T21:37:24.840-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:37:24.840-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:37:24.843-0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:37:24.870-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:37:24.870-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:37:24.873-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:37:24.873-0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-11-12T21:37:24.877-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.039 seconds
+[2025-11-12T21:50:28.718-0800] {processor.py:186} INFO - Started process (PID=2411) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:50:28.719-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2025-11-12T21:50:28.719-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:50:28.719-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:50:28.721-0800] {processor.py:925} INFO - DAG(s) 'example_setup_teardown' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py
+[2025-11-12T21:50:28.746-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:50:28.746-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:50:28.748-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:50:28.748-0800] {dag.py:4180} INFO - Setting next_dagrun for example_setup_teardown to None, run_after=None
+[2025-11-12T21:50:28.753-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_setup_teardown.py took 0.036 seconds

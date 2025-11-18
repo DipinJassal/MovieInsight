@@ -1,0 +1,17 @@
+# Core Python packages
+apache-airflow==2.10.2
+pymongo==4.6.0
+snowflake-connector-python==3.5.0
+pandas==2.1.3
+requests==2.31.0
+dbt-snowflake==1.7.0
+python-dotenv==1.0.0
+
+# Explanation of what each does:
+# apache-airflow = The scheduler robot
+# pymongo = Talks to MongoDB
+# snowflake-connector-python = Talks to Snowflake
+# pandas = Handles data in tables
+# requests = Downloads data from websites/APIs
+# dbt-snowflake = Data transformation tool for Snowflake
+# python-dotenv = Reads .env file (secrets)

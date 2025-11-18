@@ -1,0 +1,55 @@
+[2025-11-12T21:23:52.692-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-12T21:23:52.695-0800] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_data_extraction.extract_movie_credits scheduled__2025-11-12T00:00:00+00:00 [queued]>
+[2025-11-12T21:23:52.696-0800] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_data_extraction.extract_movie_credits scheduled__2025-11-12T00:00:00+00:00 [queued]>
+[2025-11-12T21:23:52.696-0800] {taskinstance.py:2865} INFO - Starting attempt 1 of 3
+[2025-11-12T21:23:52.699-0800] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): extract_movie_credits> on 2025-11-12 00:00:00+00:00
+[2025-11-12T21:23:52.703-0800] {logging_mixin.py:190} WARNING - /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1755) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-12T21:23:52.703-0800] {standard_task_runner.py:72} INFO - Started process 1756 to run task
+[2025-11-12T21:23:52.702-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_data_extraction', 'extract_movie_credits', 'scheduled__2025-11-12T00:00:00+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_extraction_dag.py', '--cfg-path', '/var/folders/r9/q22xmvj17r590_phm7qsfl9h0000gn/T/tmph1nmhac9']
+[2025-11-12T21:23:52.703-0800] {standard_task_runner.py:105} INFO - Job 40: Subtask extract_movie_credits
+[2025-11-12T21:23:52.713-0800] {task_command.py:467} INFO - Running <TaskInstance: tmdb_data_extraction.extract_movie_credits scheduled__2025-11-12T00:00:00+00:00 [running]> on host dipins-macbook-pro.local
+[2025-11-12T21:23:52.727-0800] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='team7' AIRFLOW_CTX_DAG_ID='tmdb_data_extraction' AIRFLOW_CTX_TASK_ID='extract_movie_credits' AIRFLOW_CTX_EXECUTION_DATE='2025-11-12T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-12T00:00:00+00:00'
+[2025-11-12T21:23:52.728-0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-11-12T21:23:52.728-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-11-12T21:23:52.728-0800] {logging_mixin.py:190} INFO - Current task name:extract_movie_credits state:running start_date:2025-11-13 05:23:52.695276+00:00
+[2025-11-12T21:23:52.728-0800] {logging_mixin.py:190} INFO - Dag name:tmdb_data_extraction and current dag run status:running
+[2025-11-12T21:23:52.728-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-12T21:23:52.729-0800] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/r9/q22xmvj17r590_phm7qsfl9h0000gn/T
+[2025-11-12T21:23:52.729-0800] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/dipinjassal/ml/tmdb_data_warehouse && /Users/dipinjassal/ml/tmdb_data_warehouse/venv/bin/python scripts/airflow_extract_credits.py']
+[2025-11-12T21:23:52.731-0800] {subprocess.py:86} INFO - Output:
+[2025-11-12T21:25:28.583-0800] {subprocess.py:93} INFO - EXTRACTING CREDITS
+[2025-11-12T21:25:28.585-0800] {subprocess.py:93} INFO - TMDB Client initialized with base URL: https://api.themoviedb.org/3
+[2025-11-12T21:25:28.586-0800] {subprocess.py:93} INFO - ✓ Connected to MongoDB: tmdb-raw
+[2025-11-12T21:25:28.588-0800] {subprocess.py:93} INFO - [1/10] Movie 1062722
+[2025-11-12T21:25:28.589-0800] {subprocess.py:93} INFO -   ✓ Movie 1062722: 51 cast, 181 crew
+[2025-11-12T21:25:28.590-0800] {subprocess.py:93} INFO - [2/10] Movie 1242898
+[2025-11-12T21:25:28.591-0800] {subprocess.py:93} INFO -   ✓ Movie 1242898: 10 cast, 62 crew
+[2025-11-12T21:25:28.592-0800] {subprocess.py:93} INFO - [3/10] Movie 1197137
+[2025-11-12T21:25:28.592-0800] {subprocess.py:93} INFO -   ✓ Movie 1197137: 18 cast, 51 crew
+[2025-11-12T21:25:28.593-0800] {subprocess.py:93} INFO - [4/10] Movie 1161617
+[2025-11-12T21:25:28.594-0800] {subprocess.py:93} INFO -   ✓ Movie 1161617: 19 cast, 17 crew
+[2025-11-12T21:25:28.595-0800] {subprocess.py:93} INFO - [5/10] Movie 755898
+[2025-11-12T21:25:28.596-0800] {subprocess.py:93} INFO -   ✓ Movie 755898: 10 cast, 79 crew
+[2025-11-12T21:25:28.596-0800] {subprocess.py:93} INFO - [6/10] Movie 1096563
+[2025-11-12T21:25:28.597-0800] {subprocess.py:93} INFO -   ✓ Movie 1096563: 7 cast, 3 crew
+[2025-11-12T21:25:28.598-0800] {subprocess.py:93} INFO - [7/10] Movie 1025527
+[2025-11-12T21:25:28.598-0800] {subprocess.py:93} INFO -   ✓ Movie 1025527: 11 cast, 51 crew
+[2025-11-12T21:25:28.599-0800] {subprocess.py:93} INFO - [8/10] Movie 1218925
+[2025-11-12T21:25:28.599-0800] {subprocess.py:93} INFO -   ✓ Movie 1218925: 15 cast, 82 crew
+[2025-11-12T21:25:28.600-0800] {subprocess.py:93} INFO - [9/10] Movie 1561969
+[2025-11-12T21:25:28.600-0800] {subprocess.py:93} INFO -   ✓ Movie 1561969: 12 cast, 6 crew
+[2025-11-12T21:25:28.601-0800] {subprocess.py:93} INFO - [10/10] Movie 1311031
+[2025-11-12T21:25:28.601-0800] {subprocess.py:93} INFO -   ✓ Movie 1311031: 25 cast, 334 crew
+[2025-11-12T21:25:28.602-0800] {subprocess.py:93} INFO - SUCCESS: 1044 credits
+[2025-11-12T21:25:28.603-0800] {subprocess.py:93} INFO - ✓ TMDB Client session closed
+[2025-11-12T21:25:28.603-0800] {subprocess.py:93} INFO - ✓ MongoDB connection closed
+[2025-11-12T21:25:29.080-0800] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-11-12T21:25:29.089-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-12T21:25:29.089-0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=tmdb_data_extraction, task_id=extract_movie_credits, run_id=scheduled__2025-11-12T00:00:00+00:00, execution_date=20251112T000000, start_date=20251113T052352, end_date=20251113T052529
+[2025-11-12T21:25:29.092-0800] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-11-12T21:25:29.092-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-11-12T21:25:29.092-0800] {logging_mixin.py:190} INFO - Dag name:tmdb_data_extraction queued_at:2025-11-13 01:54:04.087910+00:00
+[2025-11-12T21:25:29.093-0800] {logging_mixin.py:190} INFO - Task hostname:dipins-macbook-pro.local operator:BashOperator
+[2025-11-12T21:25:29.129-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-12T21:25:29.134-0800] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-12T21:25:29.134-0800] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,89 @@
+[2025-11-12T21:39:33.863-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-12T21:39:33.865-0800] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_data_extraction.extract_popular_movies manual__2025-11-13T05:39:27.360893+00:00 [queued]>
+[2025-11-12T21:39:33.867-0800] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_data_extraction.extract_popular_movies manual__2025-11-13T05:39:27.360893+00:00 [queued]>
+[2025-11-12T21:39:33.867-0800] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2025-11-12T21:39:33.869-0800] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): extract_popular_movies> on 2025-11-13 05:39:27.360893+00:00
+[2025-11-12T21:39:33.873-0800] {logging_mixin.py:190} WARNING - /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=2267) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-12T21:39:33.874-0800] {standard_task_runner.py:72} INFO - Started process 2268 to run task
+[2025-11-12T21:39:33.873-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_data_extraction', 'extract_popular_movies', 'manual__2025-11-13T05:39:27.360893+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_extraction_dag.py', '--cfg-path', '/var/folders/r9/q22xmvj17r590_phm7qsfl9h0000gn/T/tmpezu9ypkz']
+[2025-11-12T21:39:33.874-0800] {standard_task_runner.py:105} INFO - Job 56: Subtask extract_popular_movies
+[2025-11-12T21:39:33.885-0800] {task_command.py:467} INFO - Running <TaskInstance: tmdb_data_extraction.extract_popular_movies manual__2025-11-13T05:39:27.360893+00:00 [running]> on host dipins-macbook-pro.local
+[2025-11-12T21:39:33.899-0800] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='team7' AIRFLOW_CTX_DAG_ID='tmdb_data_extraction' AIRFLOW_CTX_TASK_ID='extract_popular_movies' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T05:39:27.360893+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-13T05:39:27.360893+00:00'
+[2025-11-12T21:39:33.900-0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-11-12T21:39:33.900-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-11-12T21:39:33.900-0800] {logging_mixin.py:190} INFO - Current task name:extract_popular_movies state:running start_date:2025-11-13 05:39:33.865930+00:00
+[2025-11-12T21:39:33.900-0800] {logging_mixin.py:190} INFO - Dag name:tmdb_data_extraction and current dag run status:running
+[2025-11-12T21:39:33.900-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-12T21:39:33.901-0800] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/r9/q22xmvj17r590_phm7qsfl9h0000gn/T
+[2025-11-12T21:39:33.901-0800] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/dipinjassal/ml/tmdb_data_warehouse && /Users/dipinjassal/ml/tmdb_data_warehouse/venv/bin/python scripts/airflow_extract_movies.py']
+[2025-11-12T21:39:33.903-0800] {subprocess.py:86} INFO - Output:
+[2025-11-12T21:39:58.697-0800] {subprocess.py:93} INFO - EXTRACTING MOVIES
+[2025-11-12T21:39:58.701-0800] {subprocess.py:93} INFO - TMDB Client initialized with base URL: https://api.themoviedb.org/3
+[2025-11-12T21:39:58.702-0800] {subprocess.py:93} INFO - ✓ Connected to MongoDB: tmdb-raw
+[2025-11-12T21:39:58.703-0800] {subprocess.py:93} INFO - Fetching 50 pages of popular movies...
+[2025-11-12T21:39:58.703-0800] {subprocess.py:93} INFO -   ✓ Page 1: Got 20 movies
+[2025-11-12T21:39:58.703-0800] {subprocess.py:93} INFO -   ✓ Page 2: Got 20 movies
+[2025-11-12T21:39:58.704-0800] {subprocess.py:93} INFO -   ✓ Page 3: Got 20 movies
+[2025-11-12T21:39:58.704-0800] {subprocess.py:93} INFO -   ✓ Page 4: Got 20 movies
+[2025-11-12T21:39:58.704-0800] {subprocess.py:93} INFO -   ✓ Page 5: Got 20 movies
+[2025-11-12T21:39:58.705-0800] {subprocess.py:93} INFO -   ✓ Page 6: Got 20 movies
+[2025-11-12T21:39:58.705-0800] {subprocess.py:93} INFO -   ✓ Page 7: Got 20 movies
+[2025-11-12T21:39:58.706-0800] {subprocess.py:93} INFO -   ✓ Page 8: Got 20 movies
+[2025-11-12T21:39:58.706-0800] {subprocess.py:93} INFO -   ✓ Page 9: Got 20 movies
+[2025-11-12T21:39:58.706-0800] {subprocess.py:93} INFO -   ✓ Page 10: Got 20 movies
+[2025-11-12T21:39:58.707-0800] {subprocess.py:93} INFO -   ✓ Page 11: Got 20 movies
+[2025-11-12T21:39:58.708-0800] {subprocess.py:93} INFO -   ✓ Page 12: Got 20 movies
+[2025-11-12T21:39:58.708-0800] {subprocess.py:93} INFO -   ✓ Page 13: Got 20 movies
+[2025-11-12T21:39:58.708-0800] {subprocess.py:93} INFO -   ✓ Page 14: Got 20 movies
+[2025-11-12T21:39:58.709-0800] {subprocess.py:93} INFO -   ✓ Page 15: Got 20 movies
+[2025-11-12T21:39:58.709-0800] {subprocess.py:93} INFO -   ✓ Page 16: Got 20 movies
+[2025-11-12T21:39:58.709-0800] {subprocess.py:93} INFO -   ✓ Page 17: Got 20 movies
+[2025-11-12T21:39:58.710-0800] {subprocess.py:93} INFO -   ✓ Page 18: Got 20 movies
+[2025-11-12T21:39:58.710-0800] {subprocess.py:93} INFO -   ✓ Page 19: Got 20 movies
+[2025-11-12T21:39:58.711-0800] {subprocess.py:93} INFO -   ✓ Page 20: Got 20 movies
+[2025-11-12T21:39:58.711-0800] {subprocess.py:93} INFO -   ✓ Page 21: Got 20 movies
+[2025-11-12T21:39:58.711-0800] {subprocess.py:93} INFO -   ✓ Page 22: Got 20 movies
+[2025-11-12T21:39:58.712-0800] {subprocess.py:93} INFO -   ✓ Page 23: Got 20 movies
+[2025-11-12T21:39:58.712-0800] {subprocess.py:93} INFO -   ✓ Page 24: Got 20 movies
+[2025-11-12T21:39:58.712-0800] {subprocess.py:93} INFO -   ✓ Page 25: Got 20 movies
+[2025-11-12T21:39:58.713-0800] {subprocess.py:93} INFO -   ✓ Page 26: Got 20 movies
+[2025-11-12T21:39:58.713-0800] {subprocess.py:93} INFO -   ✓ Page 27: Got 20 movies
+[2025-11-12T21:39:58.714-0800] {subprocess.py:93} INFO -   ✓ Page 28: Got 20 movies
+[2025-11-12T21:39:58.714-0800] {subprocess.py:93} INFO -   ✓ Page 29: Got 20 movies
+[2025-11-12T21:39:58.714-0800] {subprocess.py:93} INFO -   ✓ Page 30: Got 20 movies
+[2025-11-12T21:39:58.715-0800] {subprocess.py:93} INFO -   ✓ Page 31: Got 20 movies
+[2025-11-12T21:39:58.715-0800] {subprocess.py:93} INFO -   ✓ Page 32: Got 20 movies
+[2025-11-12T21:39:58.716-0800] {subprocess.py:93} INFO -   ✓ Page 33: Got 20 movies
+[2025-11-12T21:39:58.716-0800] {subprocess.py:93} INFO -   ✓ Page 34: Got 20 movies
+[2025-11-12T21:39:58.717-0800] {subprocess.py:93} INFO -   ✓ Page 35: Got 20 movies
+[2025-11-12T21:39:58.717-0800] {subprocess.py:93} INFO -   ✓ Page 36: Got 20 movies
+[2025-11-12T21:39:58.718-0800] {subprocess.py:93} INFO -   ✓ Page 37: Got 20 movies
+[2025-11-12T21:39:58.718-0800] {subprocess.py:93} INFO -   ✓ Page 38: Got 20 movies
+[2025-11-12T21:39:58.718-0800] {subprocess.py:93} INFO -   ✓ Page 39: Got 20 movies
+[2025-11-12T21:39:58.719-0800] {subprocess.py:93} INFO -   ✓ Page 40: Got 20 movies
+[2025-11-12T21:39:58.719-0800] {subprocess.py:93} INFO -   ✓ Page 41: Got 20 movies
+[2025-11-12T21:39:58.720-0800] {subprocess.py:93} INFO -   ✓ Page 42: Got 20 movies
+[2025-11-12T21:39:58.720-0800] {subprocess.py:93} INFO -   ✓ Page 43: Got 20 movies
+[2025-11-12T21:39:58.721-0800] {subprocess.py:93} INFO -   ✓ Page 44: Got 20 movies
+[2025-11-12T21:39:58.721-0800] {subprocess.py:93} INFO -   ✓ Page 45: Got 20 movies
+[2025-11-12T21:39:58.721-0800] {subprocess.py:93} INFO -   ✓ Page 46: Got 20 movies
+[2025-11-12T21:39:58.722-0800] {subprocess.py:93} INFO -   ✓ Page 47: Got 20 movies
+[2025-11-12T21:39:58.722-0800] {subprocess.py:93} INFO -   ✓ Page 48: Got 20 movies
+[2025-11-12T21:39:58.723-0800] {subprocess.py:93} INFO -   ✓ Page 49: Got 20 movies
+[2025-11-12T21:39:58.723-0800] {subprocess.py:93} INFO -   ✓ Page 50: Got 20 movies
+[2025-11-12T21:39:58.723-0800] {subprocess.py:93} INFO - ✅ Total movies fetched: 1000
+[2025-11-12T21:39:58.724-0800] {subprocess.py:93} INFO - Inserting 1000 movies...
+[2025-11-12T21:39:58.725-0800] {subprocess.py:93} INFO -   ✓ Inserted: 936, Updated: 52
+[2025-11-12T21:39:58.725-0800] {subprocess.py:93} INFO - SUCCESS: 1000 movies
+[2025-11-12T21:39:58.726-0800] {subprocess.py:93} INFO - ✓ TMDB Client session closed
+[2025-11-12T21:39:58.726-0800] {subprocess.py:93} INFO - ✓ MongoDB connection closed
+[2025-11-12T21:39:59.121-0800] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-11-12T21:39:59.129-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-12T21:39:59.130-0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=tmdb_data_extraction, task_id=extract_popular_movies, run_id=manual__2025-11-13T05:39:27.360893+00:00, execution_date=20251113T053927, start_date=20251113T053933, end_date=20251113T053959
+[2025-11-12T21:39:59.133-0800] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-11-12T21:39:59.133-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-11-12T21:39:59.133-0800] {logging_mixin.py:190} INFO - Dag name:tmdb_data_extraction queued_at:2025-11-13 05:39:27.368901+00:00
+[2025-11-12T21:39:59.133-0800] {logging_mixin.py:190} INFO - Task hostname:dipins-macbook-pro.local operator:BashOperator
+[2025-11-12T21:39:59.153-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-12T21:39:59.161-0800] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-12T21:39:59.161-0800] {local_task_job_runner.py:245} INFO - ::endgroup::

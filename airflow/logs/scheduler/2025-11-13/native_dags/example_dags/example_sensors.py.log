@@ -1,0 +1,43 @@
+[2025-11-12T21:29:28.129-0800] {processor.py:186} INFO - Started process (PID=1819) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:29:28.129-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-11-12T21:29:28.129-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:28.129-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:29:28.133-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:29:28.346-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:28.345-0800] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_sensors
+[2025-11-12T21:29:28.348-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:28.348-0800] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_sensors
+[2025-11-12T21:29:28.349-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:28.349-0800] {override.py:1900} INFO - Created Permission View: can read on DAG:example_sensors
+[2025-11-12T21:29:28.350-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:28.350-0800] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_sensors
+[2025-11-12T21:29:28.352-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:28.352-0800] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_sensors
+[2025-11-12T21:29:28.353-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:28.353-0800] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_sensors
+[2025-11-12T21:29:28.354-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:28.354-0800] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_sensors
+[2025-11-12T21:29:28.354-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:28.354-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:29:28.357-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:28.357-0800] {dag.py:3262} INFO - Creating ORM DAG for example_sensors
+[2025-11-12T21:29:28.357-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:29:28.357-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-11-12T21:29:28.361-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.233 seconds
+[2025-11-12T21:30:56.205-0800] {processor.py:186} INFO - Started process (PID=1892) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:30:56.205-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-11-12T21:30:56.205-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:56.205-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:30:56.209-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:30:56.396-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:56.396-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:30:56.399-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:56.399-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-11-12T21:30:56.404-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.200 seconds
+[2025-11-12T21:34:30.530-0800] {processor.py:186} INFO - Started process (PID=2044) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:34:30.530-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-11-12T21:34:30.530-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:34:30.530-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:34:30.534-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:34:30.721-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:34:30.721-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:34:30.725-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:34:30.724-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-11-12T21:34:30.729-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.200 seconds
+[2025-11-12T21:37:26.376-0800] {processor.py:186} INFO - Started process (PID=2135) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:37:26.376-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-11-12T21:37:26.377-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:37:26.377-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:37:26.380-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:37:26.565-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:37:26.565-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:37:26.568-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:37:26.568-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-11-12T21:37:26.573-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.198 seconds
+[2025-11-12T21:50:29.373-0800] {processor.py:186} INFO - Started process (PID=2412) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:50:29.374-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-11-12T21:50:29.374-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:50:29.374-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:50:29.377-0800] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py
+[2025-11-12T21:50:29.559-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:50:29.558-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:50:29.562-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:50:29.562-0800] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-11-12T21:50:29.567-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_sensors.py took 0.194 seconds

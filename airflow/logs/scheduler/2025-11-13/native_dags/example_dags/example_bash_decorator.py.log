@@ -1,0 +1,29 @@
+[2025-11-12T21:30:16.352-0800] {processor.py:186} INFO - Started process (PID=1862) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-11-12T21:30:16.352-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-11-12T21:30:16.352-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:16.352-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-11-12T21:30:16.365-0800] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-11-12T21:30:16.430-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:16.430-0800] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_bash_decorator
+[2025-11-12T21:30:16.432-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:16.432-0800] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_bash_decorator
+[2025-11-12T21:30:16.433-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:16.433-0800] {override.py:1900} INFO - Created Permission View: can read on DAG:example_bash_decorator
+[2025-11-12T21:30:16.435-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:16.435-0800] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_bash_decorator
+[2025-11-12T21:30:16.436-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:16.436-0800] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_bash_decorator
+[2025-11-12T21:30:16.437-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:16.437-0800] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_bash_decorator
+[2025-11-12T21:30:16.438-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:16.438-0800] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_bash_decorator
+[2025-11-12T21:30:16.438-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:16.438-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:30:16.441-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:16.441-0800] {dag.py:3262} INFO - Creating ORM DAG for example_bash_decorator
+[2025-11-12T21:30:16.441-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:16.441-0800] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-11-12T21:30:16.445-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.094 seconds
+[2025-11-12T21:38:11.690-0800] {processor.py:186} INFO - Started process (PID=2174) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-11-12T21:38:11.691-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-11-12T21:38:11.691-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:38:11.691-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-11-12T21:38:11.703-0800] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-11-12T21:38:11.770-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:38:11.770-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:38:11.772-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:38:11.772-0800] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-11-12T21:38:11.777-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.088 seconds
+[2025-11-12T21:51:14.457-0800] {processor.py:186} INFO - Started process (PID=2447) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-11-12T21:51:14.458-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py for tasks to queue
+[2025-11-12T21:51:14.458-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:14.458-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-11-12T21:51:14.471-0800] {processor.py:925} INFO - DAG(s) 'example_bash_decorator' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py
+[2025-11-12T21:51:14.536-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:14.536-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:51:14.538-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:14.538-0800] {dag.py:4180} INFO - Setting next_dagrun for example_bash_decorator to None, run_after=None
+[2025-11-12T21:51:14.543-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/example_dags/example_bash_decorator.py took 0.087 seconds

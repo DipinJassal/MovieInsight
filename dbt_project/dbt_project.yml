@@ -1,0 +1,32 @@
+name: 'tmdb_analytics'
+version: '1.0.0'
+config-version: 2
+
+profile: 'tmdb_snowflake'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  tmdb_analytics:
+    staging:
+      +materialized: view
+      +schema: staging
+    dimensions:
+      +materialized: table
+      +schema: analytics
+    facts:
+      +materialized: table
+      +schema: analytics
+
+vars:
+  current_date: "CURRENT_DATE()"

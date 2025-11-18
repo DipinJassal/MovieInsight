@@ -1,0 +1,47 @@
+[2025-11-12T21:22:11.410-0800] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-12T21:22:11.413-0800] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tmdb_data_extraction.extract_genres manual__2025-11-13T02:03:30.066102+00:00 [queued]>
+[2025-11-12T21:22:11.414-0800] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tmdb_data_extraction.extract_genres manual__2025-11-13T02:03:30.066102+00:00 [queued]>
+[2025-11-12T21:22:11.414-0800] {taskinstance.py:2865} INFO - Starting attempt 7 of 3
+[2025-11-12T21:22:11.417-0800] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): extract_genres> on 2025-11-13 02:03:30.066102+00:00
+[2025-11-12T21:22:11.421-0800] {logging_mixin.py:190} WARNING - /Users/dipinjassal/ml/tmdb_data_warehouse/venv/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1662) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-11-12T21:22:11.421-0800] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'tmdb_data_extraction', 'extract_genres', 'manual__2025-11-13T02:03:30.066102+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/tmdb_extraction_dag.py', '--cfg-path', '/var/folders/r9/q22xmvj17r590_phm7qsfl9h0000gn/T/tmpyh_948rz']
+[2025-11-12T21:22:11.421-0800] {standard_task_runner.py:72} INFO - Started process 1663 to run task
+[2025-11-12T21:22:11.421-0800] {standard_task_runner.py:105} INFO - Job 30: Subtask extract_genres
+[2025-11-12T21:22:11.432-0800] {task_command.py:467} INFO - Running <TaskInstance: tmdb_data_extraction.extract_genres manual__2025-11-13T02:03:30.066102+00:00 [running]> on host dipins-macbook-pro.local
+[2025-11-12T21:22:11.446-0800] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='team7' AIRFLOW_CTX_DAG_ID='tmdb_data_extraction' AIRFLOW_CTX_TASK_ID='extract_genres' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T02:03:30.066102+00:00' AIRFLOW_CTX_TRY_NUMBER='7' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-11-13T02:03:30.066102+00:00'
+[2025-11-12T21:22:11.446-0800] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-11-12T21:22:11.446-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-11-12T21:22:11.447-0800] {logging_mixin.py:190} INFO - Current task name:extract_genres state:running start_date:2025-11-13 05:22:11.413358+00:00
+[2025-11-12T21:22:11.447-0800] {logging_mixin.py:190} INFO - Dag name:tmdb_data_extraction and current dag run status:running
+[2025-11-12T21:22:11.447-0800] {taskinstance.py:731} INFO - ::endgroup::
+[2025-11-12T21:22:11.447-0800] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/r9/q22xmvj17r590_phm7qsfl9h0000gn/T
+[2025-11-12T21:22:11.448-0800] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'cd /Users/dipinjassal/ml/tmdb_data_warehouse && /Users/dipinjassal/ml/tmdb_data_warehouse/venv/bin/python scripts/airflow_extract_genres.py']
+[2025-11-12T21:22:11.450-0800] {subprocess.py:86} INFO - Output:
+[2025-11-12T21:22:12.763-0800] {subprocess.py:93} INFO - ==================================================
+[2025-11-12T21:22:12.763-0800] {subprocess.py:93} INFO - GENRE EXTRACTION SCRIPT
+[2025-11-12T21:22:12.764-0800] {subprocess.py:93} INFO - ==================================================
+[2025-11-12T21:22:12.764-0800] {subprocess.py:93} INFO - Initializing clients...
+[2025-11-12T21:22:12.765-0800] {subprocess.py:93} INFO - TMDB Client initialized with base URL: https://api.themoviedb.org/3
+[2025-11-12T21:22:12.765-0800] {subprocess.py:93} INFO - ✓ Connected to MongoDB: tmdb-raw
+[2025-11-12T21:22:12.765-0800] {subprocess.py:93} INFO - Fetching genres...
+[2025-11-12T21:22:12.766-0800] {subprocess.py:93} INFO - ✅ Fetched 19 genres
+[2025-11-12T21:22:12.766-0800] {subprocess.py:93} INFO - Got 19 genres
+[2025-11-12T21:22:12.766-0800] {subprocess.py:93} INFO - Inserting to MongoDB...
+[2025-11-12T21:22:12.766-0800] {subprocess.py:93} INFO - Inserting 19 genres...
+[2025-11-12T21:22:12.767-0800] {subprocess.py:93} INFO -   ✓ Inserted: 0, Updated: 19
+[2025-11-12T21:22:12.767-0800] {subprocess.py:93} INFO - Inserted: 0
+[2025-11-12T21:22:12.767-0800] {subprocess.py:93} INFO - ✓ TMDB Client session closed
+[2025-11-12T21:22:12.768-0800] {subprocess.py:93} INFO - ✓ MongoDB connection closed
+[2025-11-12T21:22:12.768-0800] {subprocess.py:93} INFO - ==================================================
+[2025-11-12T21:22:12.768-0800] {subprocess.py:93} INFO - SUCCESS
+[2025-11-12T21:22:12.769-0800] {subprocess.py:93} INFO - ==================================================
+[2025-11-12T21:22:13.299-0800] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-11-12T21:22:13.306-0800] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-11-12T21:22:13.306-0800] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=tmdb_data_extraction, task_id=extract_genres, run_id=manual__2025-11-13T02:03:30.066102+00:00, execution_date=20251113T020330, start_date=20251113T052211, end_date=20251113T052213
+[2025-11-12T21:22:13.309-0800] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-11-12T21:22:13.309-0800] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-11-12T21:22:13.309-0800] {logging_mixin.py:190} INFO - Dag name:tmdb_data_extraction queued_at:2025-11-13 02:03:30.070454+00:00
+[2025-11-12T21:22:13.309-0800] {logging_mixin.py:190} INFO - Task hostname:dipins-macbook-pro.local operator:BashOperator
+[2025-11-12T21:22:13.354-0800] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-12T21:22:13.363-0800] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-12T21:22:13.363-0800] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,119 @@
+[2025-11-12T21:07:48.040-0800] {processor.py:186} INFO - Started process (PID=1453) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:07:48.040-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:07:48.041-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:07:48.041-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:07:48.077-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:07:48.147-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:07:48.147-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:07:48.150-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:07:48.150-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:07:48.155-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.116 seconds
+[2025-11-12T21:22:07.557-0800] {processor.py:186} INFO - Started process (PID=1652) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:22:07.558-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:22:07.558-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:22:07.558-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:22:07.560-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:22:07.628-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:22:07.628-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:22:07.632-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:22:07.631-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:22:07.637-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.081 seconds
+[2025-11-12T21:23:25.741-0800] {processor.py:186} INFO - Started process (PID=1719) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:23:25.741-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:23:25.741-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:23:25.741-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:23:25.743-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:23:25.769-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:23:25.769-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:23:25.772-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:23:25.772-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:23:25.777-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.037 seconds
+[2025-11-12T21:28:46.216-0800] {processor.py:186} INFO - Started process (PID=1786) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:28:46.217-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:28:46.217-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:28:46.217-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:28:46.219-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:28:46.244-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:28:46.243-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:28:46.246-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:28:46.246-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:28:46.251-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.035 seconds
+[2025-11-12T21:30:18.026-0800] {processor.py:186} INFO - Started process (PID=1863) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:30:18.027-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:30:18.027-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:18.027-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:30:18.029-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:30:18.054-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:18.054-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:30:18.057-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:30:18.057-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:30:18.062-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.036 seconds
+[2025-11-12T21:31:13.519-0800] {processor.py:186} INFO - Started process (PID=1908) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:31:13.519-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:31:13.520-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:31:13.520-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:31:13.522-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:31:13.547-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:31:13.547-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:31:13.550-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:31:13.550-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:31:13.554-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.036 seconds
+[2025-11-12T21:33:52.945-0800] {processor.py:186} INFO - Started process (PID=2009) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:33:52.946-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:33:52.946-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:33:52.946-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:33:52.948-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:33:52.973-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:33:52.973-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:33:52.976-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:33:52.976-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:33:52.980-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.036 seconds
+[2025-11-12T21:36:46.187-0800] {processor.py:186} INFO - Started process (PID=2103) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:36:46.187-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:36:46.188-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:36:46.187-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:36:46.190-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:36:46.214-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:36:46.214-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:36:46.217-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:36:46.217-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:36:46.222-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.036 seconds
+[2025-11-12T21:38:13.368-0800] {processor.py:186} INFO - Started process (PID=2175) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:38:13.369-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:38:13.369-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:38:13.369-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:38:13.371-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:38:13.396-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:38:13.396-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:38:13.399-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:38:13.399-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:38:13.404-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.036 seconds
+[2025-11-12T21:39:17.651-0800] {processor.py:186} INFO - Started process (PID=2242) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:39:17.651-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:39:17.651-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:39:17.651-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:39:17.653-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:39:17.679-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:39:17.679-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:39:17.682-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:39:17.681-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:39:17.686-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.036 seconds
+[2025-11-12T21:44:49.396-0800] {processor.py:186} INFO - Started process (PID=2334) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:44:49.396-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:44:49.396-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:44:49.396-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:44:49.399-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:44:49.423-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:44:49.423-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:44:49.426-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:44:49.426-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:44:49.430-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.035 seconds
+[2025-11-12T21:49:51.664-0800] {processor.py:186} INFO - Started process (PID=2384) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:49:51.665-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:49:51.665-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:49:51.665-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:49:51.667-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:49:51.692-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:49:51.692-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:49:51.694-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:49:51.694-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:49:51.699-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.036 seconds
+[2025-11-12T21:51:15.403-0800] {processor.py:186} INFO - Started process (PID=2448) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:51:15.403-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:51:15.404-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:15.404-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:51:15.406-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:51:15.434-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:15.433-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:51:15.436-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:51:15.436-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:51:15.441-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.039 seconds
+[2025-11-12T21:56:52.839-0800] {processor.py:186} INFO - Started process (PID=2518) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:56:52.839-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:56:52.839-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:56:52.839-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:56:52.842-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:56:52.908-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:56:52.908-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:56:52.911-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:56:52.911-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:56:52.916-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.078 seconds
+[2025-11-12T21:58:07.670-0800] {processor.py:186} INFO - Started process (PID=2584) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:58:07.670-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T21:58:07.671-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:58:07.671-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:58:07.673-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T21:58:07.697-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:58:07.697-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T21:58:07.700-0800] {logging_mixin.py:190} INFO - [2025-11-12T21:58:07.700-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T21:58:07.705-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.035 seconds
+[2025-11-12T22:02:34.815-0800] {processor.py:186} INFO - Started process (PID=2684) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T22:02:34.815-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-12T22:02:34.815-0800] {logging_mixin.py:190} INFO - [2025-11-12T22:02:34.815-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T22:02:34.819-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-12T22:02:34.845-0800] {logging_mixin.py:190} INFO - [2025-11-12T22:02:34.845-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-12T22:02:34.848-0800] {logging_mixin.py:190} INFO - [2025-11-12T22:02:34.848-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-12T22:02:34.852-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.038 seconds
+[2025-11-13T15:40:49.188-0800] {processor.py:186} INFO - Started process (PID=8764) to work on /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-13T15:40:49.189-0800] {processor.py:914} INFO - Processing file /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py for tasks to queue
+[2025-11-13T15:40:49.189-0800] {logging_mixin.py:190} INFO - [2025-11-13T15:40:49.189-0800] {dagbag.py:588} INFO - Filling up the DagBag from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-13T15:40:49.191-0800] {processor.py:925} INFO - DAG(s) 'tmdb_data_extraction' retrieved from /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py
+[2025-11-13T15:40:49.217-0800] {logging_mixin.py:190} INFO - [2025-11-13T15:40:49.217-0800] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-11-13T15:40:49.221-0800] {logging_mixin.py:190} INFO - [2025-11-13T15:40:49.221-0800] {dag.py:4180} INFO - Setting next_dagrun for tmdb_data_extraction to None, run_after=None
+[2025-11-13T15:40:49.225-0800] {processor.py:208} INFO - Processing /Users/dipinjassal/ml/tmdb_data_warehouse/airflow/dags/tmdb_extraction_dag.py took 0.038 seconds
